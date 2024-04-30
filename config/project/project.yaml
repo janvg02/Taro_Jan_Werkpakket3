@@ -1,0 +1,22 @@
+dateModified: 1714464928
+email:
+  fromEmail: 12102676@student.pxl.be
+  fromName: Taro_Jan_Werkpakket3
+  transportType: craft\mail\transportadapters\Sendmail
+meta:
+  __names__:
+    09c3610b-7e94-41f2-a2cf-e82695b4ba2c: Taro_Jan_Werkpakket3 # Taro_Jan_Werkpakket3
+    87fde7cd-02f1-444b-9746-36ffea041512: Taro_Jan_Werkpakket3 # Taro_Jan_Werkpakket3
+system:
+  edition: solo
+  live: true
+  name: Taro_Jan_Werkpakket3
+  schemaVersion: 5.0.0.20
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  require2fa: false
+  requireEmailVerification: true
