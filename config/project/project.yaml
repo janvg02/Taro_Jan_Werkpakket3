@@ -1,4 +1,4 @@
-dateModified: 1714464928
+dateModified: 1714472564
 email:
   fromEmail: 12102676@student.pxl.be
   fromName: Taro_Jan_Werkpakket3
@@ -6,13 +6,18 @@ email:
 meta:
   __names__:
     09c3610b-7e94-41f2-a2cf-e82695b4ba2c: Taro_Jan_Werkpakket3 # Taro_Jan_Werkpakket3
+    10c5c643-5200-4e58-9b01-8b97bddaf174: Test # Test
     87fde7cd-02f1-444b-9746-36ffea041512: Taro_Jan_Werkpakket3 # Taro_Jan_Werkpakket3
+    b2fc564b-a147-4201-91b5-46adefdef1db: Test # Test
+    dbc84721-8df9-40e4-b822-595d51b33d69: 'Public Schema' # Public Schema
+    f8714083-bbd0-4185-b256-8742af4dad24: Test # Test
 system:
-  edition: solo
+  edition: pro
   live: true
   name: Taro_Jan_Werkpakket3
+  retryDuration: null
   schemaVersion: 5.0.0.20
-  timeZone: America/Los_Angeles
+  timeZone: Europe/Brussels
 users:
   allowPublicRegistration: false
   defaultGroup: null
