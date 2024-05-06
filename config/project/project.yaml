@@ -1,6 +1,4 @@
-
-dateModified: 1714472564
-
+dateModified: 1715001275
 email:
   fromEmail: 12102676@student.pxl.be
   fromName: Taro_Jan_Werkpakket3
@@ -13,6 +11,11 @@ meta:
     b2fc564b-a147-4201-91b5-46adefdef1db: Test # Test
     dbc84721-8df9-40e4-b822-595d51b33d69: 'Public Schema' # Public Schema
     f8714083-bbd0-4185-b256-8742af4dad24: Test # Test
+plugins:
+  dumper:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
 system:
   edition: pro
   live: true
