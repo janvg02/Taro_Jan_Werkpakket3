@@ -1,0 +1,27 @@
+fieldLayouts:
+  7f18b106-6dfa-4f25-b3a1-f7e6e132d02e:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: e645c5de-ad7e-4d1e-a46d-2803f03cf11d # Instagram
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 8386c6fa-1b84-445b-b2e9-7e96a9166c04
+            userCondition: null
+            warning: null
+            width: 100
+        name: 'Sociale media url''s'
+        uid: 2773d119-9739-411b-9a8c-5ee2c4a4d42c
+        userCondition: null
+handle: socialeMedia
+name: 'Sociale media'
+sortOrder: 1
