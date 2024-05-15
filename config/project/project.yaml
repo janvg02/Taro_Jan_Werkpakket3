@@ -1,16 +1,16 @@
-dateModified: 1715682389
+dateModified: 1715778225
 email:
   fromEmail: 12102676@student.pxl.be
   fromName: Taro_Jan_Werkpakket3
   transportType: craft\mail\transportadapters\Sendmail
 fs:
   products:
-    hasUrls: false
+    hasUrls: true
     name: Products
     settings:
       path: '@webroot/products'
     type: craft\fs\Local
-    url: '@webroot'
+    url: '@baseUrl/products'
 meta:
   __names__:
     2cb09214-a2df-47c9-a3cc-13710bb8eda6: Welcome # Welcome
