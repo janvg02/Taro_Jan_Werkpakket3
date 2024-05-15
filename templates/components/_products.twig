@@ -3,8 +3,9 @@
 <section>
 <div class="gallery">
 {% for product in products %}
+    {% set image = product.productImage.one() %}
     <div class="product">
-        <img src={{ product.productImage }} alt={{ product.title }}>
+        <img src="{{image.url}}" alt="{{ product.title }}">
         <h1>{{ product.title }}</h1>
         <p>{{ product.productStock }}</p>
     </div>
