@@ -6,21 +6,6 @@ fieldLayouts:
         elementCondition: null
         elements:
           -
-            elementCondition: null
-            fieldUid: df97fb95-f77f-4606-b7a8-a582bc3c0b17 # Product Image
-            handle: null
-            includeInCards: false
-            instructions: null
-            label: null
-            providesThumbs: false
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            uid: 9d818a91-8062-4248-a187-d9a7188d011c
-            userCondition: null
-            warning: null
-            width: 100
-          -
             autocapitalize: true
             autocomplete: false
             autocorrect: true
@@ -61,6 +46,21 @@ fieldLayouts:
             tip: null
             type: craft\fieldlayoutelements\CustomField
             uid: bfad6e0d-44dd-4cc5-b3c3-da2899754caf
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: df97fb95-f77f-4606-b7a8-a582bc3c0b17 # Product Image
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: dcebe3ed-0d69-4e8a-b19c-0a0c7e26c1a9
             userCondition: null
             warning: null
             width: 100
