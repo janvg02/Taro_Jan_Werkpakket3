@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e6c0322bc2506e6f2ecc1b1f406c30e2",
+    "content-hash": "cd578651874eacabe1a5f4d58bd4c35e",
     "packages": [
         {
             "name": "bacon/bacon-qr-code",
@@ -2525,6 +2525,61 @@
             "time": "2024-02-21T14:48:06+00:00"
         },
         {
+            "name": "studioespresso/craft-navigate",
+            "version": "5.1.1",
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/studioespresso/craft-navigate/zipball/31eeffd67fa35df0e2bd2e568e162f316e0db3dd",
+                "reference": "31eeffd67fa35df0e2bd2e568e162f316e0db3dd",
+                "shasum": ""
+            },
+            "require": {
+                "craftcms/cms": "^5.1.0"
+            },
+            "type": "craft-plugin",
+            "extra": {
+                "name": "Navigate",
+                "handle": "navigate",
+                "hasCpSettings": true,
+                "hasCpSection": true,
+                "changelogUrl": "https://raw.githubusercontent.com/studioespresso/craft-navigate/v5/CHANGELOG.md",
+                "components": {
+                    "navigate": "studioespresso\\navigate\\services\\NavigateService",
+                    "nodes": "studioespresso\\navigate\\services\\NodesService"
+                },
+                "class": "studioespresso\\navigate\\Navigate"
+            },
+            "autoload": {
+                "psr-4": {
+                    "studioespresso\\navigate\\": "src/"
+                }
+            },
+            "license": [
+                "proprietary"
+            ],
+            "authors": [
+                {
+                    "name": "Studio Espresso",
+                    "homepage": "https://www.studioespresso.co"
+                }
+            ],
+            "description": "Navigation plugin for Craft CMS",
+            "keywords": [
+                "cms",
+                "craft",
+                "craft-plugin",
+                "craftcms",
+                "menus",
+                "navigate",
+                "navigation"
+            ],
+            "support": {
+                "docs": "https://github.com/studioespresso/craft-navigate/blob/v5/README.md",
+                "issues": "https://github.com/studioespresso/craft-navigate/issues"
+            },
+            "time": "2024-05-03T18:52:07+00:00"
+        },
+        {
             "name": "symfony/deprecation-contracts",
             "version": "v3.5.0",
             "dist": {
@@ -2670,17 +2725,18 @@
         },
         {
             "name": "symfony/filesystem",
-            "version": "v6.4.6",
+            "version": "v6.4.7",
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/filesystem/zipball/9919b5509ada52cc7f66f9a35c86a4a29955c9d3",
-                "reference": "9919b5509ada52cc7f66f9a35c86a4a29955c9d3",
+                "url": "https://api.github.com/repos/symfony/filesystem/zipball/78dde75f8f6dbbca4ec436a4b0087f7af02076d4",
+                "reference": "78dde75f8f6dbbca4ec436a4b0087f7af02076d4",
                 "shasum": ""
             },
             "require": {
                 "php": ">=8.1",
                 "symfony/polyfill-ctype": "~1.8",
-                "symfony/polyfill-mbstring": "~1.8"
+                "symfony/polyfill-mbstring": "~1.8",
+                "symfony/process": "^5.4|^6.4"
             },
             "type": "library",
             "autoload": {
@@ -2706,7 +2762,7 @@
             ],
             "description": "Provides basic utilities for the filesystem",
             "homepage": "https://symfony.com",
-            "time": "2024-03-21T19:36:20+00:00"
+            "time": "2024-04-18T09:22:46+00:00"
         },
         {
             "name": "symfony/http-client",
@@ -3429,15 +3485,15 @@
         },
         {
             "name": "symfony/process",
-            "version": "v7.0.7",
+            "version": "v6.4.7",
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/process/zipball/3839e56b94dd1dbd13235d27504e66baf23faba0",
-                "reference": "3839e56b94dd1dbd13235d27504e66baf23faba0",
+                "url": "https://api.github.com/repos/symfony/process/zipball/cdb1c81c145fd5aa9b0038bab694035020943381",
+                "reference": "cdb1c81c145fd5aa9b0038bab694035020943381",
                 "shasum": ""
             },
             "require": {
-                "php": ">=8.2"
+                "php": ">=8.1"
             },
             "type": "library",
             "autoload": {
@@ -3463,7 +3519,7 @@
             ],
             "description": "Executes commands in sub-processes",
             "homepage": "https://symfony.com",
-            "time": "2024-04-18T09:29:19+00:00"
+            "time": "2024-04-18T09:22:46+00:00"
         },
         {
             "name": "symfony/property-access",
