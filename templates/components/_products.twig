@@ -1,3 +1,6 @@
+<head>
+{% do craft.app.view.registerCssFile('@web/css/_main.css') %}
+</head>
 {% set products = craft.entries.section('product').limit(3).all() %}
 
 <section>
@@ -6,7 +9,7 @@
             {% set image = product.productImage.one() %}
             <div class="product">
                 <img src="{{ image.url }}" alt="{{ product.title }}">
-                <h1>{{ product.title }}</h1>
+                <h2>{{ product.title }}</h1>
                 <p>{{ product.productStock }}</p>
             </div>
         {% endfor %}

@@ -1,0 +1,13 @@
+.gallery{
+    display: flex;
+    flex-direction: row;
+    margin: 2rem;
+}
+.product{
+    margin: 2rem;
+    width: 20%;
+    justify-content: center;
+}
+.product img{
+    width: 100%;
+}
