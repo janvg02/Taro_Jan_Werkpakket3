@@ -3,16 +3,26 @@
 </head>
 {% set products = craft.entries.section('product').limit(3).all() %}
 
+
 <section>
-    <div class="gallery">
-        {% for product in products %}
+    <div>
+        <ul class="product-list">
+            {% for product in products %}
             {% set image = product.productImage.one() %}
-            <div class="product">
-                <img src="{{ image.url }}" alt="{{ product.title }}">
-                <h2>{{ product.title }}</h1>
-                <p>{{ product.productStock }}</p>
+            <div class="product-info">
+                <img src="{{ image.url }}" alt="{{ product.title }}" class="product-image">
+                  <div class="product-details">
+                      <h1>{{ product.title }}</h1>
+                      <p class="stock">{{ product.productStock }}</p>
+                      <button class="add-to-cart-button">Add to cart</button>
+
+                  </div>
             </div>
-        {% endfor %}
+            {% endfor %}
+        </ul>
     </div>
 </section>
+
+
+
 
