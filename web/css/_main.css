@@ -52,3 +52,39 @@
     cursor: pointer;
     margin-top: 10px;
 }
+
+#introductie {
+
+    width: 90%;
+    height: 600px;
+    background: rgb(188, 91, 237);
+    background: linear-gradient(270deg, rgba(188, 91, 237, 1) 0%, rgba(112, 141, 255, 1) 100%, rgba(2, 0, 36, 1) 202124%);
+    border-radius: 100px;
+    margin-left: 5rem;
+    margin-top: 2.5rem;
+    color: #fff;
+}
+#introductie img
+{
+    width: 412px;
+    height: 343px;
+    margin-left: 5rem;
+    margin-top: 7rem;
+}
+
+#introductie h1
+{
+    font-size: 75px;
+    float: right;
+    padding-right: 15.5rem;
+    padding-top: 11rem;
+}
+
+#introductie p
+{
+    font-size: 25px;
+    float: right;
+    padding-right: 9.5rem;
+    margin-top: -11rem;
+    width: 50%;
+}

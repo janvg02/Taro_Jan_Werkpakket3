@@ -1,4 +1,4 @@
-dateModified: 1715797817
+dateModified: 1715953636
 email:
   fromEmail: 12102676@student.pxl.be
   fromName: Taro_Jan_Werkpakket3
@@ -13,14 +13,19 @@ fs:
     url: '@baseUrl/products'
 meta:
   __names__:
+    1f21c030-cd3f-42aa-8c2b-4d3f4e917383: 'Introductie header' # Introductie header
     2cb09214-a2df-47c9-a3cc-13710bb8eda6: Welcome # Welcome
     09c3610b-7e94-41f2-a2cf-e82695b4ba2c: Taro_Jan_Werkpakket3 # Taro_Jan_Werkpakket3
     10c5c643-5200-4e58-9b01-8b97bddaf174: Test # Test
+    18d306d5-e5e3-4e95-a026-f109bc306f42: Introductietekst # Introductietekst
+    33da7062-6225-442f-a5a4-49a850d86d8a: HeaderTitel # HeaderTitel
     87fde7cd-02f1-444b-9746-36ffea041512: Taro_Jan_Werkpakket3 # Taro_Jan_Werkpakket3
     96a473ad-0b7a-4a3f-878a-af8a5c259a6b: 'Sociale media' # Sociale media
     183f5403-7918-4d1e-bbd8-25b120259ce6: Product # Product
+    477fd05f-c8a9-4e81-ae40-15ecf0806c51: HomepageHeader # HomepageHeader
     0647c999-ab04-4909-8fd1-781a924c571d: 'Welcome Message' # Welcome Message
     6627b236-e5eb-42ef-bb61-0174d50fb165: 'Product Stock' # Product Stock
+    931218e7-d1f1-4228-b87f-446eaccae6ed: AfbeeldingHeader # AfbeeldingHeader
     45503393-00b8-49b9-abfd-78c3f4b3e11f: Description # Description
     a1356ef7-3612-4f92-8db8-24af453fedaf: Product # Product
     b2fc564b-a147-4201-91b5-46adefdef1db: Test # Test

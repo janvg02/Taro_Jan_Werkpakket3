@@ -1,4 +1,14 @@
+<head>
+    {% do craft.app.view.registerCssFile('@web/css/_main.css') %}
+</head>
 {%  include 'components/_navbar.twig'%}
 
+<section>
+<div id="introductie">
+    <h1>{{ homepageheader.headertitel }}</h1>
+    <p>{{ homepageheader.introductietekst }}</p>
+
+</div>
+</section>
 {% include 'components/_products.twig' %}
 

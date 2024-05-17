@@ -1,8 +1,4 @@
-<head>
-{% do craft.app.view.registerCssFile('@web/css/_main.css') %}
-</head>
 {% set products = craft.entries.section('product').limit(3).all() %}
-
 
 <section>
     <div>
