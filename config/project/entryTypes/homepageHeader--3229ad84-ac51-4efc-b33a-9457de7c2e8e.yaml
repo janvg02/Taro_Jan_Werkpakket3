@@ -36,7 +36,7 @@ fieldLayouts:
             width: 100
           -
             elementCondition: null
-            fieldUid: fb1d8fd0-4411-4be2-bfe0-cff0a440e274 # Header Titel
+            fieldUid: fb1d8fd0-4411-4be2-bfe0-cff0a440e274
             handle: null
             includeInCards: false
             instructions: null
@@ -51,7 +51,7 @@ fieldLayouts:
             width: 100
           -
             elementCondition: null
-            fieldUid: f8714083-bbd0-4185-b256-8742af4dad24 # Introductie Tekst
+            fieldUid: f8714083-bbd0-4185-b256-8742af4dad24 # Test
             handle: null
             includeInCards: false
             instructions: null
@@ -66,7 +66,7 @@ fieldLayouts:
             width: 100
           -
             elementCondition: null
-            fieldUid: 52cda86a-aa53-481d-bfea-9647f2ebcf95 # Afbeelding Header
+            fieldUid: 52cda86a-aa53-481d-bfea-9647f2ebcf95
             handle: null
             includeInCards: false
             instructions: null
@@ -81,7 +81,7 @@ fieldLayouts:
             width: 100
           -
             elementCondition: null
-            fieldUid: 37445816-133b-4529-8709-5190fd573747 # Home Products
+            fieldUid: 37445816-133b-4529-8709-5190fd573747
             handle: null
             includeInCards: false
             instructions: null

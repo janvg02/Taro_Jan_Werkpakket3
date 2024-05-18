@@ -1,7 +1,7 @@
 columnSuffix: null
-handle: afbeeldingHeader
+handle: afbeeldingheader
 instructions: null
-name: 'Afbeelding Header'
+name: AfbeeldingHeader
 searchable: false
 settings:
   allowSelfRelations: false
@@ -9,7 +9,7 @@ settings:
   allowUploads: true
   allowedKinds: null
   branchLimit: null
-  defaultUploadLocationSource: 'volume:69e3067d-55bc-4402-b9d5-87639c5a3263'
+  defaultUploadLocationSource: 'volume:785d5dcf-1166-4a16-bf06-921ad9320e3b' # Header
   defaultUploadLocationSubpath: null
   localizeRelations: false
   maintainHierarchy: false
@@ -27,7 +27,7 @@ settings:
   showUnpermittedFiles: false
   showUnpermittedVolumes: false
   sources:
-    - 'volume:69e3067d-55bc-4402-b9d5-87639c5a3263'
+    - 'volume:785d5dcf-1166-4a16-bf06-921ad9320e3b' # Header
   targetSiteId: null
   validateRelatedElements: false
   viewMode: list

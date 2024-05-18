@@ -1,7 +1,7 @@
 defaultPlacement: end
 enableVersioning: true
 entryTypes:
-  - 3229ad84-ac51-4efc-b33a-9457de7c2e8e # Homepage Header
+  - 3229ad84-ac51-4efc-b33a-9457de7c2e8e
 handle: homePage
 maxAuthors: 1
 name: 'Home Page'
