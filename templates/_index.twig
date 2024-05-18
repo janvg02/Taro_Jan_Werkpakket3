@@ -1,14 +1,26 @@
 <head>
     {% do craft.app.view.registerCssFile('@web/css/_main.css') %}
+    {% set headers = craft.entries.section('homePage').type(homepageHeader) %}
 </head>
-{%  include 'components/_navbar.twig'%}
+
+{% include 'components/_navbar.twig' %}
 
 <section>
-<div id="introductie">
-    <h1>{{ homepageheader.headertitel }}</h1>
-    <p>{{ homepageheader.introductietekst }}</p>
-
-</div>
+    <div id="introductie">
+        {% if headers|length %}
+            {% for header in headers %}
+                {% set image = header.afbeeldingHeader.one() %}
+                {% if image %}
+                    <img src="{{ image.url }}" alt="{{ header.headerTitel }}" class="header-image">
+                {% endif %}
+                <h1>{{ header.headerTitel }}</h1>
+                <p>{{ header.introductieTekst }}</p>
+            {% endfor %}
+        {% else %}
+            <p>No headers found.</p>
+        {% endif %}
+    </div>
 </section>
+
 {% include 'components/_products.twig' %}
 
