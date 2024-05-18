@@ -1,6 +1,7 @@
-color: null
+altTranslationKeyFormat: null
+altTranslationMethod: none
 fieldLayouts:
-  029fb0b4-46b2-41ab-a1c3-e633a784b494:
+  24b15288-e963-4839-83df-b861e8a2980d:
     tabs:
       -
         elementCondition: null
@@ -29,37 +30,20 @@ fieldLayouts:
             step: null
             tip: null
             title: null
-            type: craft\fieldlayoutelements\entries\EntryTitleField
-            uid: 98e0e927-131e-46c4-9069-c415c3beea42
-            userCondition: null
-            warning: null
-            width: 100
-          -
-            elementCondition: null
-            fieldUid: f8714083-bbd0-4185-b256-8742af4dad24 # Introductie Tekst
-            handle: null
-            includeInCards: false
-            instructions: null
-            label: null
-            providesThumbs: false
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            uid: 078b7339-f016-4612-80d1-690d684a5588
+            type: craft\fieldlayoutelements\assets\AssetTitleField
+            uid: bd63cf25-d2af-4b41-9ed5-51c019ba7918
             userCondition: null
             warning: null
             width: 100
         name: Content
-        uid: ee8c7348-b8d3-452f-b0c0-01382dce5078
+        uid: b0550e26-3c73-4e12-9552-8d2a57587c3c
         userCondition: null
-handle: test
-hasTitleField: true
-icon: ''
-name: Test
-showSlugField: true
-showStatusField: true
-slugTranslationKeyFormat: null
-slugTranslationMethod: site
-titleFormat: ''
+fs: headerImage
+handle: headerImage
+name: 'Header Image'
+sortOrder: 2
+subpath: ''
 titleTranslationKeyFormat: null
 titleTranslationMethod: site
+transformFs: ''
+transformSubpath: ''
