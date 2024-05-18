@@ -1,0 +1,27 @@
+defaultPlacement: end
+enableVersioning: true
+entryTypes:
+  - 3229ad84-ac51-4efc-b33a-9457de7c2e8e
+handle: homePage
+maxAuthors: 1
+name: 'Home Page'
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
+      -
+        - refresh
+        - '1'
+propagationMethod: all
+siteSettings:
+  87fde7cd-02f1-444b-9746-36ffea041512: # Taro_Jan_Werkpakket3
+    enabledByDefault: true
+    hasUrls: true
+    template: _index.twig
+    uriFormat: __home__
+type: single
