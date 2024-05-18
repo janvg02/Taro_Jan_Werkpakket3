@@ -1,6 +1,0 @@
-adminOnly: 1
-allowSources: '*'
-enabledSiteGroups: '*'
-handle: navbar
-levels: '1'
-title: Navbar
