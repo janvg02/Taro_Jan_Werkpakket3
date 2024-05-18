@@ -1,6 +1,6 @@
 color: null
 fieldLayouts:
-  029fb0b4-46b2-41ab-a1c3-e633a784b494:
+  6502ada2-cd59-47c7-8ce2-c36f478bdcb5:
     tabs:
       -
         elementCondition: null
@@ -30,7 +30,22 @@ fieldLayouts:
             tip: null
             title: null
             type: craft\fieldlayoutelements\entries\EntryTitleField
-            uid: 98e0e927-131e-46c4-9069-c415c3beea42
+            uid: 7f074513-eb74-49df-b241-5f9728e71fd5
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: fb1d8fd0-4411-4be2-bfe0-cff0a440e274 # Header Titel
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 1e7ca964-521d-4c51-b1ce-d32a0583c35e
             userCondition: null
             warning: null
             width: 100
@@ -45,17 +60,32 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 078b7339-f016-4612-80d1-690d684a5588
+            uid: 2ef880d3-c561-4d55-9b0c-c703438a2c05
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 52cda86a-aa53-481d-bfea-9647f2ebcf95 # Afbeelding Header
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 9d67bd74-5ae7-4320-8dab-fecf8dd5ce4e
             userCondition: null
             warning: null
             width: 100
         name: Content
-        uid: ee8c7348-b8d3-452f-b0c0-01382dce5078
+        uid: 1ec28f21-ca85-424b-8648-1b509b3cf8ce
         userCondition: null
-handle: test
+handle: homepageHeader
 hasTitleField: true
 icon: ''
-name: Test
+name: 'Homepage Header'
 showSlugField: true
 showStatusField: true
 slugTranslationKeyFormat: null

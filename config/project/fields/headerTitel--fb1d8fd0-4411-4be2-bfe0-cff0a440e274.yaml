@@ -1,7 +1,7 @@
 columnSuffix: null
-handle: test
-instructions: null
-name: Test
+handle: headerTitel
+instructions: 'Geef hier de titel van de header.'
+name: 'Header Titel'
 searchable: false
 settings:
   byteLimit: null
