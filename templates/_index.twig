@@ -1,14 +1,14 @@
+{% set homePageEntry = craft.entries.section('homePage').type('homepageHeader').one() %}
+
 <head>
     {% do craft.app.view.registerCssFile('@web/css/_main.css') %}
 </head>
-{%  include 'components/_navbar.twig'%}
+{% include 'components/_navbar.twig' %}
 
-<section>
-<div id="introductie">
-    <h1>{{ homepageheader.headertitel }}</h1>
-    <p>{{ homepageheader.introductietekst }}</p>
-
-</div>
-</section>
+    <div id="introductie">
+            {% set image = homePageEntry.afbeeldingHeader.one() %}
+                    <img src="{{ image.url }}" alt="{{ homePageEntry.title }}" class="homepage-header-image">
+                    <h1>{{ homePageEntry.headerTitel }}</h1>
+                    <p>{{ homePageEntry.introductieTekst }}</p>
+    </div>
 {% include 'components/_products.twig' %}
-

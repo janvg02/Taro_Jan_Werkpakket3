@@ -1,9 +1,16 @@
-dateModified: 1715953636
+dateModified: 1716055360
 email:
   fromEmail: 12102676@student.pxl.be
   fromName: Taro_Jan_Werkpakket3
   transportType: craft\mail\transportadapters\Sendmail
 fs:
+  header:
+    hasUrls: true
+    name: Header
+    settings:
+      path: '@webroot/header'
+    type: craft\fs\Local
+    url: '@baseUrl/header'
   products:
     hasUrls: true
     name: Products
@@ -24,7 +31,9 @@ meta:
     183f5403-7918-4d1e-bbd8-25b120259ce6: Product # Product
     477fd05f-c8a9-4e81-ae40-15ecf0806c51: HomepageHeader # HomepageHeader
     0647c999-ab04-4909-8fd1-781a924c571d: 'Welcome Message' # Welcome Message
+    785d5dcf-1166-4a16-bf06-921ad9320e3b: Header # Header
     6627b236-e5eb-42ef-bb61-0174d50fb165: 'Product Stock' # Product Stock
+    00888002-e92b-4a4d-8b00-7c0894f0ed5e: header # header
     931218e7-d1f1-4228-b87f-446eaccae6ed: AfbeeldingHeader # AfbeeldingHeader
     45503393-00b8-49b9-abfd-78c3f4b3e11f: Description # Description
     a1356ef7-3612-4f92-8db8-24af453fedaf: Product # Product
