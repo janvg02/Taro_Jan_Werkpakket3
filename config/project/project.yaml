@@ -1,4 +1,4 @@
-dateModified: 1716142540
+dateModified: 1716208328
 email:
   fromEmail: 12102676@student.pxl.be
   fromName: Taro_Jan_Werkpakket3
@@ -21,6 +21,7 @@ fs:
 meta:
   __names__:
     2cb09214-a2df-47c9-a3cc-13710bb8eda6: Welcome # Welcome
+    3bed8216-16ac-401b-863f-1c8a0257a606: Telefoonnummer # Telefoonnummer
     09c3610b-7e94-41f2-a2cf-e82695b4ba2c: Taro_Jan_Werkpakket3 # Taro_Jan_Werkpakket3
     10c5c643-5200-4e58-9b01-8b97bddaf174: Test # Test
     52cda86a-aa53-481d-bfea-9647f2ebcf95: 'Afbeelding Header' # Afbeelding Header
@@ -29,6 +30,7 @@ meta:
     96a473ad-0b7a-4a3f-878a-af8a5c259a6b: 'Sociale media' # Sociale media
     183f5403-7918-4d1e-bbd8-25b120259ce6: Product # Product
     0647c999-ab04-4909-8fd1-781a924c571d: 'Welcome Message' # Welcome Message
+    759ad69a-d4f3-4a8c-9394-9feae4c8df23: Mailadres # Mailadres
     3229ad84-ac51-4efc-b33a-9457de7c2e8e: 'Homepage Header' # Homepage Header
     6627b236-e5eb-42ef-bb61-0174d50fb165: 'Product Stock' # Product Stock
     45503393-00b8-49b9-abfd-78c3f4b3e11f: Description # Description
@@ -37,9 +39,11 @@ meta:
     b83a1e41-f048-4e4d-9ff2-71fe6067de34: 'Home Page' # Home Page
     bd208b06-b866-42b2-9e06-337e324ac776: 'Homepage tussentitel' # Homepage tussentitel
     c37668c3-44bd-42e8-bb53-d7a25fb8f515: Products # Products
+    cc8b1d23-89d1-41d3-8956-bd972896da08: Footer # Footer
     dbc84721-8df9-40e4-b822-595d51b33d69: 'Public Schema' # Public Schema
     df97fb95-f77f-4606-b7a8-a582bc3c0b17: 'Product Image' # Product Image
     e645c5de-ad7e-4d1e-a46d-2803f03cf11d: Instagram # Instagram
+    ebb676a7-a3e4-44be-a72d-3a2dbcad0a33: Straat # Straat
     f8714083-bbd0-4185-b256-8742af4dad24: 'Introductie Tekst' # Introductie Tekst
     fb1d8fd0-4411-4be2-bfe0-cff0a440e274: 'Header Titel' # Header Titel
 plugins:

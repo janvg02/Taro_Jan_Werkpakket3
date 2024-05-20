@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{% block title %}Your Craft Website{% endblock %}</title>
+    <title>{% block title %}Taro & jan Werkpakket 3{% endblock %}</title>
     <link rel="stylesheet" href="{{ url('css/style.css') }}">
 </head>
 <body>
@@ -16,7 +16,9 @@
     {% endblock %}
 </main>
 
-
+{% block footer %}
+    {% include "layout/_footer.twig" %}
+{% endblock %}
 
 </body>
 </html>
