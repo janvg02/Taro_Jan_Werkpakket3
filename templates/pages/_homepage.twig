@@ -1,20 +1,15 @@
-{% extends "_layout.twig" %}
+{% extends "base/_layout.twig" %}
 
 {% block content %}
 
     {% set homePageEntry = craft.entries.section('homePage').type('homepageHeader').one() %}
 
-
-
-
    {% set image = homePageEntry.afbeeldingHeader.one() %}
 
     <div id="introductie">
-
                     <img src="{{ image.url }}" alt="{{ homePageEntry.title }}" class="homepage-header-image">
                     <h1>{{ homePageEntry.headerTitel }}</h1>
                     <p>{{ homePageEntry.introductieTekst }}</p>
-
     </div>
 
 <h2 class="tussentitel">{{ homePageEntry.homepageTussentitel }}</h2>

@@ -1,0 +1,47 @@
+#webshop {
+
+  width: 90%;
+  height: 600px;
+  background: rgb(188, 91, 237);
+  background: linear-gradient(270deg, rgba(188, 91, 237, 1) 0%, rgba(112, 141, 255, 1) 100%, rgba(2, 0, 36, 1) 202124%);
+  border-radius: 100px;
+  margin-left: 5rem;
+  margin-top: 2.5rem;
+  color: #fff;
+}
+#webshop img
+{
+  width: 412px;
+  height: 343px;
+  margin-right: 9rem;
+  margin-top: 7rem;
+  float: right;
+}
+
+
+
+#webshop h1
+{
+  font-size: 75px;
+  float: left;
+  padding-left: 10.6rem;
+  padding-top: 11rem;
+}
+
+#webshop p
+{
+  font-size: 25px;
+  float: left;
+  padding-left: 11rem;
+  margin-top: 2rem;
+  width: 50%;
+}
+
+.tussentitel
+{
+  text-align: center;
+  color: #718CFE;
+  margin-top: 7rem;
+  text-decoration: underline;
+  font-size: 50px;
+}
