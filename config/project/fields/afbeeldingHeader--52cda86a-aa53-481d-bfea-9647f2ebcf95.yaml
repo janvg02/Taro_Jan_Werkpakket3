@@ -9,7 +9,7 @@ settings:
   allowUploads: true
   allowedKinds: null
   branchLimit: null
-  defaultUploadLocationSource: 'volume:69e3067d-55bc-4402-b9d5-87639c5a3263'
+  defaultUploadLocationSource: 'volume:69e3067d-55bc-4402-b9d5-87639c5a3263' # Header Image
   defaultUploadLocationSubpath: null
   localizeRelations: false
   maintainHierarchy: false
@@ -27,7 +27,7 @@ settings:
   showUnpermittedFiles: false
   showUnpermittedVolumes: false
   sources:
-    - 'volume:69e3067d-55bc-4402-b9d5-87639c5a3263'
+    - 'volume:69e3067d-55bc-4402-b9d5-87639c5a3263' # Header Image
   targetSiteId: null
   validateRelatedElements: false
   viewMode: list

@@ -1,7 +1,7 @@
 defaultPlacement: end
 enableVersioning: true
 entryTypes:
-  - 3229ad84-ac51-4efc-b33a-9457de7c2e8e
+  - 3229ad84-ac51-4efc-b33a-9457de7c2e8e # Homepage Header
 handle: homePage
 maxAuthors: 1
 name: 'Home Page'
@@ -23,5 +23,5 @@ siteSettings:
     enabledByDefault: true
     hasUrls: true
     template: _index.twig
-    uriFormat: __home__
+    uriFormat: home-page
 type: single

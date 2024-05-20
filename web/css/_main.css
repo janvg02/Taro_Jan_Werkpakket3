@@ -77,14 +77,23 @@
     font-size: 75px;
     float: right;
     padding-right: 15.5rem;
-    padding-top: 11rem;
+    padding-top: 9rem;
 }
 
 #introductie p
 {
     font-size: 25px;
     float: right;
-    padding-right: 9.5rem;
-    margin-top: -11rem;
+    padding-right: 6.2rem;
+    margin-top: -9rem;
     width: 50%;
+}
+
+.tussentitel
+{
+    text-align: center;
+    color: #718CFE;
+    margin-top: 7rem;
+    text-decoration: underline;
+    font-size: 50px;
 }
