@@ -36,7 +36,7 @@ fieldLayouts:
             width: 100
           -
             elementCondition: null
-            fieldUid: 52cda86a-aa53-481d-bfea-9647f2ebcf95 # Afbeelding Header
+            fieldUid: fb1d8fd0-4411-4be2-bfe0-cff0a440e274 # Header Titel
             handle: null
             includeInCards: false
             instructions: null
@@ -45,11 +45,10 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: cf94e35f-cc4d-4ab6-bc63-4418303caf5d
+            uid: f0da8c97-6761-49e1-8ab7-685a425edc19
             userCondition: null
             warning: null
             width: 100
-<<<<<<< HEAD
           -
             elementCondition: null
             fieldUid: adf16fba-8454-4104-aeea-218979b59f28 # Contact Form
@@ -66,10 +65,43 @@ fieldLayouts:
             warning: null
             width: 100
         name: 'Contact Form'
-=======
-        name: Content
->>>>>>> a671f66b9ae8452026e2ce6265c408cdc3010737
         uid: 356c1415-3fa4-48b9-a52e-b60b47d5d4cf
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: fb1d8fd0-4411-4be2-bfe0-cff0a440e274 # Header Titel
+            handle: headerTitel2
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 4a3897d1-88c5-4009-a572-89af517afcc8
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: d83e91bf-5e17-4faf-85f6-cf0707e0ef3b # Nieuwsbrief Form
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: decea4ba-45c9-4e88-bdc6-edbb0b878ebc
+            userCondition: null
+            warning: null
+            width: 100
+        name: Nieuwsbrief
+        uid: 5caf573d-5334-4c9a-8510-a32a58d14797
         userCondition: null
 handle: contactpage
 hasTitleField: true
