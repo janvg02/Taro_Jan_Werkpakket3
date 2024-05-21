@@ -1,24 +1,35 @@
-{% set products = craft.entries.section('product').orderBy("RAND()").all() %}
+{% paginate craft.entries.section('product').limit(6) as pageInfo, pageEntries %}
+
 
 <section>
+    <div class="page-container">
+    <div class="filter-container">
+
+    </div>
+    <div class="product-container">
     <div>
-        <ul class="product-list">
-            {% for product in products %}
+        <ul class="product-lijst">
+            {% for product in pageEntries %}
                 {% set image = product.productImage.one() %}
-                <div class="product-info">
+                <li class="product-info">
                     <img src="{{ image.url }}" alt="{{ product.title }}" class="product-image">
                     <div class="product-details">
                         <h1>{{ product.title }}</h1>
                         <p class="stock">{{ product.productStock }}</p>
                         <button class="add-to-cart-button">Add to cart</button>
-
                     </div>
-                </div>
+                </li>
             {% endfor %}
         </ul>
     </div>
+
+    <div class="pagination">
+        {% for i in 1..pageInfo.totalPages %}
+            <button onclick="location.href='{{ pageInfo.getPageUrl(i) }}'" class="page-numbers{% if pageInfo.currentPage == i %} active{% endif %}">
+                {{ i }}
+            </button>
+        {% endfor %}
+    </div>
+
+    </div></div>
 </section>
-
-
-
-
