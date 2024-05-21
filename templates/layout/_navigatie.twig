@@ -1,10 +1,13 @@
 {% block content %}
 
+{% set mainNav = craft.navigate.raw('navigatie') %}
+
     <nav class="navigatie">
         <ul>
-            <li><a href="../pages/_homepage.twig">{{ navbar.homepage }}</a></li>
-            <li><a href="../pages/_shoppingpage.twig">{{ navbar.shoppingpage }}</a></li>
-            <li><a href="../pages/_contactpage.twig">{{ navbar.contact}}</a></li>
+            {% for node in mainNav %}
+                <li>
+                    <a href="{{ node.url}}">{{ node.name}}</a> </li>
+            {% endfor %}
         </ul>
     </nav>
 

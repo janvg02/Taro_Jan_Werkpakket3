@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "57980efc35b277fdac9c5b2dda5f82e2",
+    "content-hash": "e3b3ab24bd4b00cb784d614809dd4fc6",
     "packages": [
         {
             "name": "bacon/bacon-qr-code",
@@ -2526,11 +2526,11 @@
         },
         {
             "name": "studioespresso/craft-navigate",
-            "version": "5.1.1",
+            "version": "5.1.2",
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/studioespresso/craft-navigate/zipball/31eeffd67fa35df0e2bd2e568e162f316e0db3dd",
-                "reference": "31eeffd67fa35df0e2bd2e568e162f316e0db3dd",
+                "url": "https://api.github.com/repos/studioespresso/craft-navigate/zipball/1a48c723c4e0d0d9a0d86f0e947768d32e2734d4",
+                "reference": "1a48c723c4e0d0d9a0d86f0e947768d32e2734d4",
                 "shasum": ""
             },
             "require": {
@@ -2577,7 +2577,7 @@
                 "docs": "https://github.com/studioespresso/craft-navigate/blob/v5/README.md",
                 "issues": "https://github.com/studioespresso/craft-navigate/issues"
             },
-            "time": "2024-05-03T18:52:07+00:00"
+            "time": "2024-05-16T18:22:59+00:00"
         },
         {
             "name": "symfony/deprecation-contracts",
