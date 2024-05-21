@@ -1,4 +1,4 @@
-{% set products = craft.entries.section('product').limit(3).all() %}
+{% set products = craft.entries.section('product').orderBy("RAND()").limit(3).all() %}
 
 <section>
     <div>
