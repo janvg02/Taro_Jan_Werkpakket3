@@ -1,7 +1,7 @@
 columnSuffix: null
-handle: straat
+handle: adres
 instructions: null
-name: Straat
+name: Adres
 searchable: false
 settings:
   byteLimit: null

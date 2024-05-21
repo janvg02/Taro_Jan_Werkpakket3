@@ -6,7 +6,7 @@ fieldLayouts:
         elements:
           -
             elementCondition: null
-            fieldUid: ebb676a7-a3e4-44be-a72d-3a2dbcad0a33 # Straat
+            fieldUid: ebb676a7-a3e4-44be-a72d-3a2dbcad0a33 # Adres
             handle: null
             includeInCards: false
             instructions: null
