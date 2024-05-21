@@ -1,0 +1,21 @@
+columnSuffix: null
+handle: releaseYear1
+instructions: null
+name: 1980-1990
+searchable: false
+settings:
+  options:
+    -
+      __assoc__:
+        -
+          - label
+          - 1980-1990
+        -
+          - value
+          - '1980'
+        -
+          - default
+          - ''
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Checkboxes
