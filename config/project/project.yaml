@@ -1,4 +1,4 @@
-dateModified: 1716277422
+dateModified: 1716284615
 email:
   fromEmail: 12102676@student.pxl.be
   fromName: Taro_Jan_Werkpakket3
@@ -38,6 +38,7 @@ meta:
     a1356ef7-3612-4f92-8db8-24af453fedaf: Product # Product
     b83a1e41-f048-4e4d-9ff2-71fe6067de34: 'Home Page' # Home Page
     bd208b06-b866-42b2-9e06-337e324ac776: 'Homepage tussentitel' # Homepage tussentitel
+    c5afde39-203f-46b7-836f-759556a4c841: Contactpage # Contactpage
     c37668c3-44bd-42e8-bb53-d7a25fb8f515: Products # Products
     cc8b1d23-89d1-41d3-8956-bd972896da08: Footer # Footer
     dbc84721-8df9-40e4-b822-595d51b33d69: 'Public Schema' # Public Schema
@@ -47,6 +48,7 @@ meta:
     ebb676a7-a3e4-44be-a72d-3a2dbcad0a33: Straat # Straat
     f8714083-bbd0-4185-b256-8742af4dad24: 'Introductie Tekst' # Introductie Tekst
     fb1d8fd0-4411-4be2-bfe0-cff0a440e274: 'Header Titel' # Header Titel
+    fbfb433a-22bb-4c33-8332-9381883c5955: Contactpage # Contactpage
     fc2961ce-a588-41e7-b4f5-3af53942dcaa: contact # contact
 plugins:
   dumper:
