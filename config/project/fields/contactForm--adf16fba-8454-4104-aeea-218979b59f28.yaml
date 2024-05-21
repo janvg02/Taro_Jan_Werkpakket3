@@ -1,7 +1,7 @@
 columnSuffix: null
-handle: nieuwsbriefForm
+handle: contactForm
 instructions: null
-name: 'Nieuwsbrief Form'
+name: 'Contact Form'
 searchable: false
 translationKeyFormat: null
 translationMethod: none
