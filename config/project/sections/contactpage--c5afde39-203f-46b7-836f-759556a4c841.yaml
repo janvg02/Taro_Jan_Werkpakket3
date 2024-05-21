@@ -1,0 +1,27 @@
+defaultPlacement: end
+enableVersioning: true
+entryTypes:
+  - fbfb433a-22bb-4c33-8332-9381883c5955 # Contactpage
+handle: contactpage
+maxAuthors: 1
+name: Contactpage
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
+      -
+        - refresh
+        - '1'
+propagationMethod: all
+siteSettings:
+  87fde7cd-02f1-444b-9746-36ffea041512: # Taro_Jan_Werkpakket3
+    enabledByDefault: true
+    hasUrls: true
+    template: pages\_contactpage.twig
+    uriFormat: contact-page
+type: single

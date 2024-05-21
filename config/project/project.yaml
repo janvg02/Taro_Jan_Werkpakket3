@@ -1,4 +1,4 @@
-dateModified: 1716284615
+dateModified: 1716288239
 email:
   fromEmail: 12102676@student.pxl.be
   fromName: Taro_Jan_Werkpakket3
@@ -38,9 +38,11 @@ meta:
     a1356ef7-3612-4f92-8db8-24af453fedaf: Product # Product
     b83a1e41-f048-4e4d-9ff2-71fe6067de34: 'Home Page' # Home Page
     bd208b06-b866-42b2-9e06-337e324ac776: 'Homepage tussentitel' # Homepage tussentitel
+    be799785-5696-43d6-a6a8-42847acaaa55: 1980-1990 # 1980-1990
     c5afde39-203f-46b7-836f-759556a4c841: Contactpage # Contactpage
     c37668c3-44bd-42e8-bb53-d7a25fb8f515: Products # Products
     cc8b1d23-89d1-41d3-8956-bd972896da08: Footer # Footer
+    d4c05d4c-7e4c-492c-981f-6d6d10b1b534: 'Release Year' # Release Year
     dbc84721-8df9-40e4-b822-595d51b33d69: 'Public Schema' # Public Schema
     df97fb95-f77f-4606-b7a8-a582bc3c0b17: 'Product Image' # Product Image
     e0b95ba0-8635-44b1-b56a-af94a3ad43ea: shoppingBanner # shoppingBanner

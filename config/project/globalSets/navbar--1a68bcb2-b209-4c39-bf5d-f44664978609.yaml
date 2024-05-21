@@ -1,0 +1,57 @@
+fieldLayouts:
+  1bf25794-ab14-4090-a010-1cfec6fe4c14:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 2685b248-da85-4b33-902d-ef8468f92c97 # homepage
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 2ba13006-1322-4bc0-9f9d-6e5b9c02e038
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 2a7768c8-a13e-4df0-b195-fa51e9645acf # shoppingpage
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 14e09dd1-86c1-4438-9a50-63ad87bbcc56
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: fc2961ce-a588-41e7-b4f5-3af53942dcaa # contact
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 42c4bf9b-f49d-4f50-b7d3-466e8a8d8621
+            userCondition: null
+            warning: null
+            width: 100
+        name: Navigation
+        uid: 0ef30b17-1e5c-4ba9-975e-c7569e2f3f31
+        userCondition: null
+handle: navbar
+name: Navbar
+sortOrder: 3

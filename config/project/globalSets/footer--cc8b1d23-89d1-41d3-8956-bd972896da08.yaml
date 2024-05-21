@@ -1,0 +1,57 @@
+fieldLayouts:
+  3a77a7f1-cd64-46da-9f24-7c251fa5e76d:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: ebb676a7-a3e4-44be-a72d-3a2dbcad0a33 # Straat
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 228c77d3-ad18-4dab-b7db-d1d47d881c72
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 3bed8216-16ac-401b-863f-1c8a0257a606 # Telefoonnummer
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: a40cdc2a-1e78-4515-9bb0-d47b3a781823
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 759ad69a-d4f3-4a8c-9394-9feae4c8df23 # Mailadres
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 4124b15d-0e7c-4c91-ac42-fc9e155db1cb
+            userCondition: null
+            warning: null
+            width: 100
+        name: FooterContent
+        uid: a9aa1a21-161e-4f94-842b-1de7e0a8e166
+        userCondition: null
+handle: footer
+name: Footer
+sortOrder: 2
