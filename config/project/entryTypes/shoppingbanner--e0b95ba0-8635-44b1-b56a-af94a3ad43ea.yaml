@@ -1,0 +1,95 @@
+color: lime
+fieldLayouts:
+  f81624d2-c6e7-4ef9-852b-60c3e66a939e:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 9a003413-f1bb-4dc6-b2ba-913802ab4e8c
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: fb1d8fd0-4411-4be2-bfe0-cff0a440e274 # Header Titel
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 4485d06c-b668-44d0-a731-855081d306f3
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: f8714083-bbd0-4185-b256-8742af4dad24 # Introductie Tekst
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 963df0eb-8888-4b18-bd63-16fa02120877
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 52cda86a-aa53-481d-bfea-9647f2ebcf95 # Afbeelding Header
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: c1a779c2-e1ca-4b34-bc08-7328b18b57e1
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 4c5e7b7c-1aa6-4b04-a686-863a7400bf0a
+        userCondition: null
+handle: shoppingbanner
+hasTitleField: true
+icon: ''
+name: shoppingBanner
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: ''
+titleTranslationKeyFormat: null
+titleTranslationMethod: site
