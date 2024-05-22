@@ -1,4 +1,4 @@
-dateModified: 1716313115
+dateModified: 1716371571
 email:
   fromEmail: 12102676@student.pxl.be
   fromName: Taro_Jan_Werkpakket3
@@ -22,7 +22,9 @@ meta:
   __names__:
     1a68bcb2-b209-4c39-bf5d-f44664978609: Navbar # Navbar
     2a7768c8-a13e-4df0-b195-fa51e9645acf: shoppingpage # shoppingpage
+    02fc9904-1bcf-413f-9c91-107b01d07adc: Year # Year
     3bed8216-16ac-401b-863f-1c8a0257a606: Telefoonnummer # Telefoonnummer
+    9a508750-43ce-4b63-ae4c-93c4079f23c6: 'Release Years' # Release Years
     09c3610b-7e94-41f2-a2cf-e82695b4ba2c: Taro_Jan_Werkpakket3 # Taro_Jan_Werkpakket3
     33f76516-a392-46f5-9c91-d4f15708f1ae: 'Shopping Page' # Shopping Page
     52cda86a-aa53-481d-bfea-9647f2ebcf95: 'Afbeelding Header' # Afbeelding Header
@@ -36,7 +38,7 @@ meta:
     6627b236-e5eb-42ef-bb61-0174d50fb165: 'Product Stock' # Product Stock
     45503393-00b8-49b9-abfd-78c3f4b3e11f: Description # Description
     a1356ef7-3612-4f92-8db8-24af453fedaf: Product # Product
-    adf16fba-8454-4104-aeea-218979b59f28: Form # Form
+    adf16fba-8454-4104-aeea-218979b59f28: 'Contact Form' # Contact Form
     b83a1e41-f048-4e4d-9ff2-71fe6067de34: 'Home Page' # Home Page
     bd208b06-b866-42b2-9e06-337e324ac776: 'Homepage tussentitel' # Homepage tussentitel
     be799785-5696-43d6-a6a8-42847acaaa55: 1980-1990 # 1980-1990
@@ -51,7 +53,7 @@ meta:
     df97fb95-f77f-4606-b7a8-a582bc3c0b17: 'Product Image' # Product Image
     e0b95ba0-8635-44b1-b56a-af94a3ad43ea: shoppingBanner # shoppingBanner
     e645c5de-ad7e-4d1e-a46d-2803f03cf11d: Instagram # Instagram
-    ebb676a7-a3e4-44be-a72d-3a2dbcad0a33: Straat # Straat
+    ebb676a7-a3e4-44be-a72d-3a2dbcad0a33: Adres # Adres
     f8714083-bbd0-4185-b256-8742af4dad24: 'Introductie Tekst' # Introductie Tekst
     fb1d8fd0-4411-4be2-bfe0-cff0a440e274: 'Header Titel' # Header Titel
     fbfb433a-22bb-4c33-8332-9381883c5955: Contactpage # Contactpage
@@ -66,43 +68,11 @@ plugins:
     enabled: true
     licenseKey: VIJCBRO9PUJMEPA0RD767078
     schemaVersion: 3.4.4
-    settings:
-      ajaxTimeout: 10
-      alertEmails: null
-      defaultDateDisplayType: calendar
-      defaultDateTime: null
-      defaultDateValueOption: ''
-      defaultEmailTemplate: ''
-      defaultFileUploadVolume: ''
-      defaultFormTemplate: ''
-      defaultInstructionsPosition: verbb\formie\positions\AboveInput
-      defaultLabelPosition: verbb\formie\positions\AboveInput
-      defaultPage: forms
-      emptyValuePlaceholder: 'No response.'
-      enableBackSubmission: true
-      enableCsrfValidationForGuests: true
-      enableLargeFieldStorage: false
-      enableUnloadWarning: true
-      includeDraftElementUsage: false
-      includeRevisionElementUsage: false
-      maxIncompleteSubmissionAge: 30
-      maxSentNotificationsAge: 30
-      pdfPaperOrientation: portrait
-      pdfPaperSize: letter
-      pluginName: Formie
-      queuePriority: null
-      saveSpam: true
-      sendEmailAlerts: false
-      sentNotifications: true
-      setOnlyCurrentPagePayload: false
-      spamBehaviour: showSuccess
-      spamBehaviourMessage: ''
-      spamEmailNotifications: false
-      spamKeywords: ''
-      spamLimit: 500
-      useQueueForIntegrations: true
-      useQueueForNotifications: true
-      validateCustomTemplates: true
+  freeform:
+    edition: pro
+    enabled: true
+    licenseKey: 60X49OLUTFGMRZZEGKMWK0JB
+    schemaVersion: 5.1.0
   navigate:
     edition: standard
     enabled: true
