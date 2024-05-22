@@ -2,7 +2,9 @@
 {% block content %}
 
     {% set contactPageEntry = craft.entries.section('contactpage').type('contactForm').one() %}
-    
+
+
+{{ freeform.form(entry.contactForm).render() }}
 
 
   

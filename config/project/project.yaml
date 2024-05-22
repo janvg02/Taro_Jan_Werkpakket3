@@ -1,4 +1,4 @@
-dateModified: 1716314458
+dateModified: 1716371571
 email:
   fromEmail: 12102676@student.pxl.be
   fromName: Taro_Jan_Werkpakket3
@@ -22,7 +22,9 @@ meta:
   __names__:
     1a68bcb2-b209-4c39-bf5d-f44664978609: Navbar # Navbar
     2a7768c8-a13e-4df0-b195-fa51e9645acf: shoppingpage # shoppingpage
+    02fc9904-1bcf-413f-9c91-107b01d07adc: Year # Year
     3bed8216-16ac-401b-863f-1c8a0257a606: Telefoonnummer # Telefoonnummer
+    9a508750-43ce-4b63-ae4c-93c4079f23c6: 'Release Years' # Release Years
     09c3610b-7e94-41f2-a2cf-e82695b4ba2c: Taro_Jan_Werkpakket3 # Taro_Jan_Werkpakket3
     33f76516-a392-46f5-9c91-d4f15708f1ae: 'Shopping Page' # Shopping Page
     52cda86a-aa53-481d-bfea-9647f2ebcf95: 'Afbeelding Header' # Afbeelding Header
