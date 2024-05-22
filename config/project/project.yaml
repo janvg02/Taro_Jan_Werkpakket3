@@ -1,4 +1,4 @@
-dateModified: 1716312466
+dateModified: 1716313115
 email:
   fromEmail: 12102676@student.pxl.be
   fromName: Taro_Jan_Werkpakket3
@@ -51,7 +51,7 @@ meta:
     df97fb95-f77f-4606-b7a8-a582bc3c0b17: 'Product Image' # Product Image
     e0b95ba0-8635-44b1-b56a-af94a3ad43ea: shoppingBanner # shoppingBanner
     e645c5de-ad7e-4d1e-a46d-2803f03cf11d: Instagram # Instagram
-    ebb676a7-a3e4-44be-a72d-3a2dbcad0a33: Adres # Adres
+    ebb676a7-a3e4-44be-a72d-3a2dbcad0a33: Straat # Straat
     f8714083-bbd0-4185-b256-8742af4dad24: 'Introductie Tekst' # Introductie Tekst
     fb1d8fd0-4411-4be2-bfe0-cff0a440e274: 'Header Titel' # Header Titel
     fbfb433a-22bb-4c33-8332-9381883c5955: Contactpage # Contactpage
@@ -66,6 +66,43 @@ plugins:
     enabled: true
     licenseKey: VIJCBRO9PUJMEPA0RD767078
     schemaVersion: 3.4.4
+    settings:
+      ajaxTimeout: 10
+      alertEmails: null
+      defaultDateDisplayType: calendar
+      defaultDateTime: null
+      defaultDateValueOption: ''
+      defaultEmailTemplate: ''
+      defaultFileUploadVolume: ''
+      defaultFormTemplate: ''
+      defaultInstructionsPosition: verbb\formie\positions\AboveInput
+      defaultLabelPosition: verbb\formie\positions\AboveInput
+      defaultPage: forms
+      emptyValuePlaceholder: 'No response.'
+      enableBackSubmission: true
+      enableCsrfValidationForGuests: true
+      enableLargeFieldStorage: false
+      enableUnloadWarning: true
+      includeDraftElementUsage: false
+      includeRevisionElementUsage: false
+      maxIncompleteSubmissionAge: 30
+      maxSentNotificationsAge: 30
+      pdfPaperOrientation: portrait
+      pdfPaperSize: letter
+      pluginName: Formie
+      queuePriority: null
+      saveSpam: true
+      sendEmailAlerts: false
+      sentNotifications: true
+      setOnlyCurrentPagePayload: false
+      spamBehaviour: showSuccess
+      spamBehaviourMessage: ''
+      spamEmailNotifications: false
+      spamKeywords: ''
+      spamLimit: 500
+      useQueueForIntegrations: true
+      useQueueForNotifications: true
+      validateCustomTemplates: true
   navigate:
     edition: standard
     enabled: true
