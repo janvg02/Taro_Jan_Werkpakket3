@@ -1,18 +1,18 @@
 columnSuffix: null
-handle: releaseYear
+handle: releaseYearEntry
 instructions: null
-name: 'Release Year'
+name: 'Jaar van uitgave'
 searchable: false
 settings:
   allowSelfRelations: false
   branchLimit: null
   localizeRelations: false
   maintainHierarchy: false
-  maxRelations: 1
-  minRelations: 1
+  maxRelations: null
+  minRelations: null
   selectionLabel: null
   showCardsInGrid: false
-  showSiteMenu: true
+  showSiteMenu: false
   sources:
     - 'section:9a508750-43ce-4b63-ae4c-93c4079f23c6' # Release Years
   targetSiteId: null

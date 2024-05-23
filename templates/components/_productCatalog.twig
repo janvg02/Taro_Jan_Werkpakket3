@@ -1,5 +1,6 @@
 {% paginate craft.entries.section('product').limit(6) as pageInfo, pageEntries %}
-{% set releaseYears = craft.entries.section('releaseYears').collect() %}
+{% set entries = craft.entries.section('product') %}
+{% set releaseYears = craft.entries.section('releaseYears') %}
 
 
 {% set relationParam = ['and']%}
@@ -9,9 +10,11 @@
     {% set relationParam = relationParam|merge([{ targetElement: releaseQuery }]) %}
 {% endif %}
 
-{# {% if relationParam|length > 1 %}
+{% if relationParam|length > 1 %}
+{# {{dd(entries.relatedTo(185))}} #}
     {% set entries = entries.relatedTo(relationParam) %}
-{% endif %} #}
+{% endif %}
+{{d(entries.collect())}}
 <section>
     <div class="page-container">
     <div class="filter-container">
@@ -21,7 +24,8 @@
             <input type="checkbox" id="{{releaseYear.id}}" value="{{releaseYear.id}}" name="releaseYear[]" {% if releaseYear.id in releaseQuery %} checked {% endif %}>
              {% endfor %}
              <button>Submit</button>
-
+{# {{d(releaseQuery)}}
+{{dd(relationParam)}} #}
        
         </form>
     </div>
