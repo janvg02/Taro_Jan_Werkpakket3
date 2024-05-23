@@ -6,7 +6,7 @@ fieldLayouts:
         elements:
           -
             elementCondition: null
-            fieldUid: ebb676a7-a3e4-44be-a72d-3a2dbcad0a33 # Adres
+            fieldUid: 1ccb56f6-722a-4d88-a56c-01ae20e7d7d7 # Adres
             handle: null
             includeInCards: false
             instructions: null
@@ -15,7 +15,7 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 228c77d3-ad18-4dab-b7db-d1d47d881c72
+            uid: ee5e9935-a6cf-476b-912d-fd354c137f73
             userCondition: null
             warning: null
             width: 100

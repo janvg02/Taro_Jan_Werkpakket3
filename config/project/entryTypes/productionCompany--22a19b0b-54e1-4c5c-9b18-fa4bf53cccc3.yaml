@@ -1,0 +1,50 @@
+color: null
+fieldLayouts:
+  b86719d5-fa74-485d-b43e-1a54a8b7c17d:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 1693615e-3399-4466-82dc-4854811f0da2
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: a3262a23-1f1e-423f-8494-3470ac3eea0f
+        userCondition: null
+handle: productionCompany
+hasTitleField: true
+icon: ''
+name: 'Production Company'
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: ''
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

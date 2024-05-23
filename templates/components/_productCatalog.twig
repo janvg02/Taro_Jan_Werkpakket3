@@ -1,58 +1,57 @@
-{% paginate craft.entries.section('product').limit(6) as pageInfo, pageEntries %}
-{% set entries = craft.entries.section('product') %}
-{% set releaseYears = craft.entries.section('releaseYears') %}
-
-
-{% set relationParam = ['and']%}
 {% set releaseQuery = craft.app.request.getParam('releaseYear') %}
+
+{% set relationParam = ['and'] %}
 
 {% if releaseQuery %}
     {% set relationParam = relationParam|merge([{ targetElement: releaseQuery }]) %}
 {% endif %}
 
+{% set entries = craft.entries.section('product') %}
+
 {% if relationParam|length > 1 %}
-{# {{dd(entries.relatedTo(185))}} #}
     {% set entries = entries.relatedTo(relationParam) %}
 {% endif %}
-{{d(entries.collect())}}
+
+{% paginate entries.limit(6) as pageInfo, pageEntries %}
+{# {{d(entries.collect())}} #}
+
 <section>
     <div class="page-container">
-    <div class="filter-container">
-        <form>
-        {% for releaseYear in releaseYears %}
-            
-            <input type="checkbox" id="{{releaseYear.id}}" value="{{releaseYear.id}}" name="releaseYear[]" {% if releaseYear.id in releaseQuery %} checked {% endif %}>
-             {% endfor %}
-             <button>Submit</button>
-{# {{d(releaseQuery)}}
-{{dd(relationParam)}} #}
-       
-        </form>
-    </div>
-    <div class="product-container">
-    <div>
-        <ul class="product-lijst">
-            {% for product in pageEntries %}
-                {% set image = product.productImage.one() %}
-                <li class="product-info">
-                    <img src="{{ image.url }}" alt="{{ product.title }}" class="product-image">
-                    <div class="product-details">
-                        <h1>{{ product.title }}</h1>
-                        <p class="stock">{{ product.productStock }}</p>
-                        <button class="add-to-cart-button">Add to cart</button>
+        <div class="filter-container">
+            <form method="get">
+                {% for releaseYear in craft.entries.section('releaseYears') %}
+                     <div class="filterItem">
+                        <input type="checkbox" id="{{ releaseYear.id }}" value="{{ releaseYear.id }}" name="releaseYear[]" {% if releaseQuery and releaseYear.id in releaseQuery %} checked {% endif %}>
+                        <label for="{{ releaseYear.id }}">{{ releaseYear.title }}</label>
                     </div>
-                </li>
-            {% endfor %}
-        </ul>
-    </div>
+                {% endfor %}
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+        <div class="product-container">
+            <div>
+                <ul class="product-lijst">
+                    {% for product in pageEntries %}
+                        {% set image = product.productImage.one() %}
+                        <li class="product-info">
+                            <img src="{{ image.url }}" alt="{{ product.title }}" class="product-image">
+                            <div class="product-details">
+                                <h1>{{ product.title }}</h1>
+                                <p class="stock">{{ product.productStock }}</p>
+                                <button class="add-to-cart-button">Add to cart</button>
+                            </div>
+                        </li>
+                    {% endfor %}
+                </ul>
+            </div>
 
-    <div class="pagination">
-        {% for i in 1..pageInfo.totalPages %}
-            <button onclick="location.href='{{ pageInfo.getPageUrl(i) }}'" class="page-numbers{% if pageInfo.currentPage == i %} active{% endif %}">
-                {{ i }}
-            </button>
-        {% endfor %}
+            <div class="pagination">
+                {% for i in 1..pageInfo.totalPages %}
+                    <button onclick="location.href='{{ pageInfo.getPageUrl(i) }}'" class="page-numbers{% if pageInfo.currentPage == i %} active{% endif %}">
+                        {{ i }}
+                    </button>
+                {% endfor %}
+            </div>
+        </div>
     </div>
-
-    </div></div>
 </section>

@@ -1,4 +1,4 @@
-dateModified: 1716467497
+dateModified: 1716495438
 email:
   fromEmail: 12102676@student.pxl.be
   fromName: Taro_Jan_Werkpakket3
@@ -21,11 +21,13 @@ fs:
 meta:
   __names__:
     1a68bcb2-b209-4c39-bf5d-f44664978609: Navbar # Navbar
+    1ccb56f6-722a-4d88-a56c-01ae20e7d7d7: Adres # Adres
     2a7768c8-a13e-4df0-b195-fa51e9645acf: shoppingpage # shoppingpage
     02fc9904-1bcf-413f-9c91-107b01d07adc: Year # Year
     3bed8216-16ac-401b-863f-1c8a0257a606: Telefoonnummer # Telefoonnummer
     9a508750-43ce-4b63-ae4c-93c4079f23c6: 'Release Years' # Release Years
     09c3610b-7e94-41f2-a2cf-e82695b4ba2c: Taro_Jan_Werkpakket3 # Taro_Jan_Werkpakket3
+    22a19b0b-54e1-4c5c-9b18-fa4bf53cccc3: 'Production Company' # Production Company
     33f76516-a392-46f5-9c91-d4f15708f1ae: 'Shopping Page' # Shopping Page
     52cda86a-aa53-481d-bfea-9647f2ebcf95: 'Afbeelding Header' # Afbeelding Header
     69e3067d-55bc-4402-b9d5-87639c5a3263: 'Header Image' # Header Image
@@ -46,7 +48,7 @@ meta:
     c5afde39-203f-46b7-836f-759556a4c841: Contactpage # Contactpage
     c37668c3-44bd-42e8-bb53-d7a25fb8f515: Products # Products
     cc8b1d23-89d1-41d3-8956-bd972896da08: Footer # Footer
-    d4c05d4c-7e4c-492c-981f-6d6d10b1b534: 'Release Year' # Release Year
+    d4c05d4c-7e4c-492c-981f-6d6d10b1b534: Filters # Filters
     d32fb5a3-3240-4a6e-8bd5-424f947e7719: 'Contact Form' # Contact Form
     d83e91bf-5e17-4faf-85f6-cf0707e0ef3b: 'Nieuwsbrief Form' # Nieuwsbrief Form
     d745ad65-c9b0-4fc3-838e-324c75f466ed: New # New
@@ -54,7 +56,6 @@ meta:
     df97fb95-f77f-4606-b7a8-a582bc3c0b17: 'Product Image' # Product Image
     e0b95ba0-8635-44b1-b56a-af94a3ad43ea: shoppingBanner # shoppingBanner
     e645c5de-ad7e-4d1e-a46d-2803f03cf11d: Instagram # Instagram
-    ebb676a7-a3e4-44be-a72d-3a2dbcad0a33: Adres # Adres
     f8714083-bbd0-4185-b256-8742af4dad24: 'Introductie Tekst' # Introductie Tekst
     fb1d8fd0-4411-4be2-bfe0-cff0a440e274: 'Header Titel' # Header Titel
     fbfb433a-22bb-4c33-8332-9381883c5955: Contactpage # Contactpage
