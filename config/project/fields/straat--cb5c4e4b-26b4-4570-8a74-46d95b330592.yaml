@@ -1,0 +1,16 @@
+columnSuffix: null
+handle: straat
+instructions: 'Vul je adres in aan met onderstaande tekst ervoor'
+name: Straat
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  initialRows: 4
+  multiline: false
+  placeholder: 'Adres:'
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

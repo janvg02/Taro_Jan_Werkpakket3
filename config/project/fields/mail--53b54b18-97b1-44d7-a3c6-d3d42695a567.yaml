@@ -1,0 +1,16 @@
+columnSuffix: null
+handle: mail
+instructions: 'Vul je email in aan met onderstaande tekst ervoor'
+name: Mail
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  initialRows: 4
+  multiline: false
+  placeholder: 'Mail: '
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

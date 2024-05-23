@@ -103,6 +103,72 @@ fieldLayouts:
         name: Nieuwsbrief
         uid: 5caf573d-5334-4c9a-8510-a32a58d14797
         userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: fb1d8fd0-4411-4be2-bfe0-cff0a440e274 # Header Titel
+            handle: headerTitel3
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 2bffdfac-4377-4a26-abcb-a9b2636e8c38
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 53b54b18-97b1-44d7-a3c6-d3d42695a567 # Mail
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 32c2f2df-d2c3-40ec-a043-37e066c8a7b0
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 98a6f92c-170b-4702-a172-2f94801a3a43 # GSM Nummer
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 45a0ddf4-0094-44a8-8a1e-90529c51aa25
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: cb5c4e4b-26b4-4570-8a74-46d95b330592 # Straat
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 33f82f71-de62-425c-aa9a-09026489ee7d
+            userCondition: null
+            warning: null
+            width: 100
+        name: 'Contact Gegevens'
+        uid: 9b03a294-8bcf-45c7-b766-2779fdbe0557
+        userCondition: null
 handle: contactpage
 hasTitleField: true
 icon: ''

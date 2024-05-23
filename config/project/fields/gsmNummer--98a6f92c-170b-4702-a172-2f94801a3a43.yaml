@@ -1,0 +1,16 @@
+columnSuffix: null
+handle: gsmNummer
+instructions: 'Vul je GSM nummer in aan met onderstaande tekst ervoor'
+name: 'GSM Nummer'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  initialRows: 4
+  multiline: false
+  placeholder: 'Nummer:'
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText
