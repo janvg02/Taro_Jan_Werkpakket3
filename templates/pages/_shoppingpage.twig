@@ -1,4 +1,6 @@
 {% extends "base/_layout.twig" %}
+{% hook 'after-body-start' %}
+
 {% block content %}
 
     {% set shoppingPageEntry = craft.entries.section('shoppingpage').type('shoppingbanner').one() %}
