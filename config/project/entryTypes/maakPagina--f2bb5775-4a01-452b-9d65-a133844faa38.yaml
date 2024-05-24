@@ -15,7 +15,7 @@ fieldLayouts:
             id: null
             includeInCards: false
             inputType: null
-            instructions: null
+            instructions: 'Typ hier de titel van je pagina'
             label: 'Nieuwe Titel'
             max: null
             min: null
@@ -36,7 +36,7 @@ fieldLayouts:
             width: 100
           -
             elementCondition: null
-            fieldUid: 2efad103-5850-43d1-b329-42a57939cbe0 # Nieuw Tekst
+            fieldUid: 2efad103-5850-43d1-b329-42a57939cbe0 # Nieuwe Tekst
             handle: null
             includeInCards: false
             instructions: null
@@ -87,6 +87,27 @@ fieldLayouts:
             width: 100
         name: Formulier
         uid: bd94d6dd-5110-43ad-a003-560f85c1e6af
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 2c00f778-72c4-4833-9cc5-c2d9d84c9bfc # Nieuwe Populaire Producten
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 037982bc-2a59-4a87-ba0b-a75285deb580
+            userCondition: null
+            warning: null
+            width: 100
+        name: 'Producten Blok'
+        uid: aa03af72-172a-4b2d-87ca-a76b80b819e3
         userCondition: null
 handle: maakPagina
 hasTitleField: true

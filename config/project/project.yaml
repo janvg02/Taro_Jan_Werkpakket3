@@ -1,4 +1,4 @@
-dateModified: 1716583810
+dateModified: 1716585084
 email:
   fromEmail: 12102676@student.pxl.be
   fromName: Taro_Jan_Werkpakket3
@@ -11,6 +11,13 @@ fs:
       path: '@webroot/header'
     type: craft\fs\Local
     url: '@baseUrl/header'
+  nieuweAfbeeldingen:
+    hasUrls: true
+    name: 'Nieuwe Afbeeldingen'
+    settings:
+      path: '@webroot'
+    type: craft\fs\Local
+    url: '@baseUrl'
   products:
     hasUrls: true
     name: Products
@@ -25,12 +32,14 @@ meta:
     1ccb56f6-722a-4d88-a56c-01ae20e7d7d7: Adres # Adres
     1f528f49-8f4f-4edf-84b7-d80dfa593ba5: 'Nieuwe Pagina (voor content manager)' # Nieuwe Pagina (voor content manager)
     2a7768c8-a13e-4df0-b195-fa51e9645acf: shoppingpage # shoppingpage
-    2efad103-5850-43d1-b329-42a57939cbe0: 'Nieuw Tekst' # Nieuw Tekst
+    2c00f778-72c4-4833-9cc5-c2d9d84c9bfc: 'Nieuwe Populaire Producten' # Nieuwe Populaire Producten
+    2efad103-5850-43d1-b329-42a57939cbe0: 'Nieuwe Tekst' # Nieuwe Tekst
     02fc9904-1bcf-413f-9c91-107b01d07adc: Year # Year
     3bed8216-16ac-401b-863f-1c8a0257a606: Telefoonnummer # Telefoonnummer
     4d9d9a2a-2f18-4120-a9fb-3ff1d4e78924: 'production Company' # production Company
     7b468148-b299-4901-829f-c2edd1a0b95a: 'Nieuwe Foto' # Nieuwe Foto
     8a0b203e-0bcb-4d1f-ba7c-eff8a05184fa: 'Nieuwe Form' # Nieuwe Form
+    8d1c6bd8-76de-4a5c-9eb4-edde84820ba3: 'Nieuwe Afbeelding' # Nieuwe Afbeelding
     9a508750-43ce-4b63-ae4c-93c4079f23c6: 'Release Years' # Release Years
     09c3610b-7e94-41f2-a2cf-e82695b4ba2c: Taro_Jan_Werkpakket3 # Taro_Jan_Werkpakket3
     10c9bb8b-fdce-4665-8835-ed78a0d01ae4: 'Production company' # Production company
@@ -73,6 +82,10 @@ meta:
     fbfb433a-22bb-4c33-8332-9381883c5955: Contactpage # Contactpage
     fc2961ce-a588-41e7-b4f5-3af53942dcaa: contact # contact
 plugins:
+  cookie-consent:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.5.0
   dumper:
     edition: standard
     enabled: true

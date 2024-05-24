@@ -1,7 +1,7 @@
 columnSuffix: null
-handle: nieuwTekst
+handle: nieuweTekst
 instructions: 'Typ hier de tekst die langs je afbeelding komt'
-name: 'Nieuw Tekst'
+name: 'Nieuwe Tekst'
 searchable: false
 settings:
   byteLimit: null

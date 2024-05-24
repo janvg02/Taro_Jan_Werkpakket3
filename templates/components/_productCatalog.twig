@@ -17,6 +17,8 @@
 {% endif %}
 
 {% paginate entries.limit(6) as pageInfo, pageEntries %}
+{% hook 'after-body-start' %}
+
 
 
 <section>
