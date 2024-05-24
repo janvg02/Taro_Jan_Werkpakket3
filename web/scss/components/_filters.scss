@@ -3,8 +3,10 @@
     justify-content: center;
 }
 .filterItem{
-    display: flex;
-    flex-direction: column-reverse;
+    
     width: 150%;
+    label{
+        color: #718CFE;
+    }
     
 }

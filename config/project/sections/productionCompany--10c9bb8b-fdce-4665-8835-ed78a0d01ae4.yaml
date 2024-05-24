@@ -1,0 +1,15 @@
+defaultPlacement: end
+enableVersioning: true
+entryTypes:
+  - 22a19b0b-54e1-4c5c-9b18-fa4bf53cccc3 # Production Company
+handle: productionCompany
+maxAuthors: 1
+name: 'Production company'
+propagationMethod: all
+siteSettings:
+  87fde7cd-02f1-444b-9746-36ffea041512: # Taro_Jan_Werkpakket3
+    enabledByDefault: true
+    hasUrls: false
+    template: null
+    uriFormat: null
+type: channel
