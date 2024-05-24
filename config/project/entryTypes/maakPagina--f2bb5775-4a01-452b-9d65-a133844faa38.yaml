@@ -1,0 +1,101 @@
+color: null
+fieldLayouts:
+  60d08323-341c-4263-a3a7-c48e06a49353:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: null
+            label: 'Nieuwe Titel'
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: e5e20c7f-20dd-4cf2-b477-d9a931fca461
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 2efad103-5850-43d1-b329-42a57939cbe0 # Nieuw Tekst
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 184b5eef-bfc7-43c7-be6e-5273bf57246c
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 7b468148-b299-4901-829f-c2edd1a0b95a # Nieuwe Foto
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 0b8b475e-d59a-48e8-8a3d-f78345759fad
+            userCondition: null
+            warning: null
+            width: 100
+        name: 'Tekst + Afbeelding'
+        uid: f92ff28b-6c79-4b2e-a6a8-be482064d410
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 8a0b203e-0bcb-4d1f-ba7c-eff8a05184fa # Nieuwe Form
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: d337c050-449a-4cf4-9b82-6be815f0cffc
+            userCondition: null
+            warning: null
+            width: 100
+        name: Formulier
+        uid: bd94d6dd-5110-43ad-a003-560f85c1e6af
+        userCondition: null
+handle: maakPagina
+hasTitleField: true
+icon: ''
+name: 'Maak Pagina aan'
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: ''
+titleTranslationKeyFormat: null
+titleTranslationMethod: site
