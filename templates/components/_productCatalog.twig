@@ -18,6 +18,7 @@
 
 {% paginate entries.limit(6) as pageInfo, pageEntries %}
 
+
 <section>
     <div class="page-container">
         <div class="filter-container">
@@ -43,12 +44,15 @@
                     {% for product in pageEntries %}
                         {% set image = product.productImage.one() %}
                         <li class="product-info">
-                            <img src="{{ image.url }}" alt="{{ product.title }}" class="product-image">
-                            <div class="product-details">
-                                <h1 class="product-title">{{ product.title }}</h1>
-                                <p class="stock">{{ product.productStock }}</p>
-                                <button class="add-to-cart-button">Add to cart</button>
-                            </div>
+                            <a href="{{ url('products/' ~ product.slug) }}">
+                                <img src="{{ image.url }}" alt="{{ product.title }}" class="product-image">
+                                <div class="product-details">
+                                    <h1 class="product-title">{{ product.title }}</h1>
+                                    <p class="stock">{{ product.productStock }}</p>
+                                    <p class="price">€ {{ product.productPrice }}</p>
+                                    <button class="add-to-cart-button">Add to cart</button>
+                                </div>
+                            </a>
                         </li>
                     {% endfor %}
                 </ul>
@@ -66,4 +70,5 @@
         </div>
     </div>
 </section>
+
 

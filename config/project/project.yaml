@@ -1,4 +1,4 @@
-dateModified: 1716574401
+dateModified: 1716578777
 email:
   fromEmail: 12102676@student.pxl.be
   fromName: Taro_Jan_Werkpakket3
@@ -20,6 +20,7 @@ fs:
     url: '@baseUrl/products'
 meta:
   __names__:
+    0ddc8fe3-8a80-4f07-87cc-062bf8ddfcf6: 'Product Price' # Product Price
     1a68bcb2-b209-4c39-bf5d-f44664978609: Navbar # Navbar
     1ccb56f6-722a-4d88-a56c-01ae20e7d7d7: Adres # Adres
     2a7768c8-a13e-4df0-b195-fa51e9645acf: shoppingpage # shoppingpage
