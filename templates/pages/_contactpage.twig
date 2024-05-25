@@ -6,24 +6,26 @@
     {% set contactPageEntry = craft.entries.section('contactpage').one() %}
 
 
-<section>
+<section class="contactTotaal">
 
-<div class="contact-header">
+<div class="contactTitel">
 <h1>{{entry.headerTitel}}</h1>
 </div>
 
-{{ craft.formie.renderForm("contact") }}
 
+<div class="formulier">
+{{ craft.formie.renderForm("contact") }}
+    </div>
 
 
 <div class="contact-header">
-<h1>{{contactPageEntry.headerTitel3}}</h1>
-<p>{{contactPageEntry.mail}}</p>
-<p>{{contactPageEntry.gsmNummer}}</p>
-<p>{{contactPageEntry.straat}}</p>
+<h1 class="informatieTitel">{{contactPageEntry.headerTitel3}}</h1>
+
+<p class="informatie">{{contactPageEntry.mail}}</p>
+<p class="informatie">{{contactPageEntry.gsmNummer}}</p>
+<p class="informatie">{{contactPageEntry.straat}}</p>
 </div>
 
-{{ craft.formie.renderForm("nieuwsbrief") }}
 
 
 </section>

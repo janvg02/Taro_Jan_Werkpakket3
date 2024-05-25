@@ -121,12 +121,56 @@ a {
   font-size: 50px;
 }
 
+.contactTotaal {
+  margin-top: 3rem;
+  margin-bottom: 30rem;
+}
+
+.formulier {
+  width: 50%;
+  float: left;
+  padding-left: 17%;
+  padding-top: 3%;
+}
+
+.contact-header {
+  width: 50%;
+  float: right;
+  text-align: center;
+  color: #718CFE;
+  margin-top: 8rem;
+  padding-right: 10%;
+}
+
+.nieuwsbrief {
+  width: 100%;
+  margin-top: 20rem;
+}
+
+.informatie {
+  font-weight: bold;
+  padding-top: 1.5rem;
+}
+
+.informatieTitel {
+  font-weight: 500;
+}
+
+.contactTitel {
+  text-align: center;
+  text-decoration: underline;
+  color: #718CFE;
+  font-weight: bold;
+  font-size: 20px;
+}
+
 .product-list {
   list-style: none;
   padding: 0;
   display: flex;
   justify-content: space-evenly;
   margin-top: 6rem;
+  margin-left: 5.2%;
 }
 
 .product-item {
@@ -150,6 +194,14 @@ a {
 
 .product-details {
   width: 150px;
+  padding-top: 1.5rem;
+  color: #718CFE;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.product-details1 {
+  width: 300px;
   padding-top: 1.5rem;
   color: #718CFE;
   font-weight: bold;
@@ -204,6 +256,15 @@ a {
   width: 300px;
 }
 
+.filter-section {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  color: #718cfe;
+  margin-left: 175px;
+  font-size: 30px;
+}
+
 .product-container {
   width: 70%;
   padding-left: 20px;
@@ -216,6 +277,20 @@ a {
 
 .page-container {
   display: flex;
+}
+
+.submitbutton {
+  width: 8rem;
+  height: 3rem;
+  color: white;
+  background: rgb(188, 91, 237);
+  background: linear-gradient(270deg, rgb(188, 91, 237) 0%, rgb(112, 141, 255) 100%, rgb(2, 0, 36) 202124%);
+  border: 0;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 10px;
 }
 
 .filter-container {

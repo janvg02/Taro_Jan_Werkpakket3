@@ -24,22 +24,23 @@
 <section>
     <div class="page-container">
         <div class="filter-container">
+            <div class="filter-section">
             <form method="get">
                 {% for releaseYear in craft.entries.section('releaseYears') %}
                     <div class="filterItem">
                         <input class="filter-checkbox" type="checkbox" id="{{ releaseYear.id }}" value="{{ releaseYear.id }}" name="releaseYear[]" {% if releaseQuery and releaseYear.id in releaseQuery %} checked {% endif %}>
                         <label class="filter-text" for="{{ releaseYear.id }}">{{ releaseYear.title }}</label>
                     </div>
-                {% endfor %}
+                {% endfor %}<br>
                 {% for productionCompany in craft.entries.section('productionCompany') %}
                     <div class="filterItem">
                         <input type="checkbox" id="{{ productionCompany.id }}" value="{{ productionCompany.id }}" name="productionCompany[]" {% if productionQuery and productionCompany.id in productionQuery %} checked {% endif %}>
                         <label for="{{ productionCompany.id }}">{{ productionCompany.title }}</label>
                     </div>
                 {% endfor %}
-                <button type="submit">Submit</button>
+                <button type="submit"  class="submitbutton">Submit</button>
             </form>
-        </div>
+        </div></div>
         <div class="product-container">
             {% if pageEntries | length %}
                 <ul class="product-lijst">
