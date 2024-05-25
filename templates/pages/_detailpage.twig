@@ -1,5 +1,4 @@
 {% set product = craft.entries.slug(craft.app.request.getSegment(2)).section('product').one() %}
-{% hook 'after-body-start' %}
 
 {% if product %}
     <section>

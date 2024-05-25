@@ -1,4 +1,4 @@
-dateModified: 1716585084
+dateModified: 1716631678
 email:
   fromEmail: 12102676@student.pxl.be
   fromName: Taro_Jan_Werkpakket3
@@ -85,6 +85,7 @@ plugins:
   cookie-consent:
     edition: standard
     enabled: true
+    licenseKey: QG5NTQLKMK2H4XE6ZPB4MYA4
     schemaVersion: 1.5.0
   dumper:
     edition: standard
