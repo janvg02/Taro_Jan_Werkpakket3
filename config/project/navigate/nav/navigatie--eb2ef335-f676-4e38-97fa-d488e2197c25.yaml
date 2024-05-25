@@ -2,5 +2,5 @@ adminOnly: 1
 allowSources: '*'
 enabledSiteGroups: '*'
 handle: navigatie
-levels: '1'
+levels: 1
 title: Navigatie

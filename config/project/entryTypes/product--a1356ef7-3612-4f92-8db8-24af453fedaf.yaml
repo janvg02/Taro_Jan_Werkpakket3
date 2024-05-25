@@ -70,7 +70,7 @@ fieldLayouts:
             handle: null
             includeInCards: false
             instructions: null
-            label: 'Release Year'
+            label: null
             providesThumbs: false
             required: false
             tip: null
@@ -79,47 +79,17 @@ fieldLayouts:
             userCondition: null
             warning: null
             width: 100
-          -
-            elementCondition: null
-            fieldUid: 4d9d9a2a-2f18-4120-a9fb-3ff1d4e78924 # production Company
-            handle: null
-            includeInCards: false
-            instructions: null
-            label: null
-            providesThumbs: false
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            uid: 27c5b3ef-0470-4826-82d2-c00e2bbaed27
-            userCondition: null
-            warning: null
-            width: 100
-          -
-            elementCondition: null
-            fieldUid: 0ddc8fe3-8a80-4f07-87cc-062bf8ddfcf6 # Product Price
-            handle: null
-            includeInCards: false
-            instructions: null
-            label: null
-            providesThumbs: false
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            uid: a85ca18d-c989-4104-961b-26f1a20e8544
-            userCondition: null
-            warning: null
-            width: 100
         name: Content
         uid: e0ce9f37-c0a5-45c0-ab7c-6c59acecd47c
         userCondition: null
 handle: product
 hasTitleField: true
-icon: ''
+icon: null
 name: Product
 showSlugField: true
 showStatusField: true
 slugTranslationKeyFormat: null
 slugTranslationMethod: site
-titleFormat: ''
+titleFormat: null
 titleTranslationKeyFormat: null
 titleTranslationMethod: site
