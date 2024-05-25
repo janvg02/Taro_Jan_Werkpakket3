@@ -48,7 +48,7 @@
                         <li class="product-info">
                             <a href="{{ url('products/' ~ product.slug) }}">
                                 <img src="{{ image.url }}" alt="{{ product.title }}" class="product-image">
-                                <div class="product-details">
+                                <div class="product-details" id="details">
                                     <h1 class="product-title">{{ product.title }}</h1>
                                     <p class="stock">{{ product.productStock }}</p>
                                     <p class="price">€ {{ product.productPrice }}</p>
