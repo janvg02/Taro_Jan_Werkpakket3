@@ -46,6 +46,35 @@
   font-size: 50px;
 }
 
+.detail-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.links {
+  width: 30%;
+}
+
+.links img {
+  width: 500px;
+  height: auto;
+  margin-top: 6rem;
+  margin-left: 10rem;
+}
+
+.rechts {
+  width: 70%;
+  color: #718CFE;
+  margin-top: 9rem;
+  margin-left: 15rem;
+  font-size: 26px;
+}
+
+#button2 {
+  width: 12rem;
+  font-size: 16px;
+}
+
 #webshop {
   width: 90%;
   height: 600px;
@@ -63,6 +92,10 @@
   margin-right: 9rem;
   margin-top: 7rem;
   float: right;
+}
+
+a {
+  text-decoration: none;
 }
 
 #webshop h1 {
@@ -179,6 +212,17 @@
 
 .page-container {
   display: flex;
+}
+
+.filter-container {
+  justify-content: center;
+}
+
+.filterItem {
+  width: 150%;
+}
+.filterItem label {
+  color: #718CFE;
 }
 
 #footer {

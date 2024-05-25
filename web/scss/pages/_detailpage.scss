@@ -1,0 +1,34 @@
+.detail-container
+{
+  display: flex;
+  flex-direction: row;
+}
+
+.links
+{
+  width: 30%;
+}
+
+.links img
+{
+  width: 500px;
+  height: auto;
+  margin-top: 6rem;
+  margin-left: 10rem;
+}
+
+.rechts
+{
+  width: 70%;
+  color: #718CFE;
+  margin-top: 9rem;
+  margin-left: 15rem;
+  font-size: 26px;
+}
+
+#button2
+{
+  width: 12rem;
+  font-size: 16px;
+}
+

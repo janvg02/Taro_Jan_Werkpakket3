@@ -1,19 +1,30 @@
-{% set product = craft.entries.slug(craft.app.request.getSegment(2)).section('product').one() %}
+{% extends "base/_layout.twig" %}
 
-{% if product %}
-    <section>
-        <div class="product-detail">
-            {% set image = product.productImage.one() %}
-            {% if image %}
-                <img src="{{ image.url }}" alt="{{ product.title }}" class="product-image">
-            {% endif %}
-            <div class="product-detail-info">
-                <h1>{{ product.title }}</h1>
-                <p> {{ product.productStock }}</p>
-                <button class="add-to-cart-button">Add to cart</button>
+{% block content %}
+    {% set product = craft.entries.slug(craft.app.request.getSegment(2)).section('product').one() %}
+
+    {% if product %}
+        <div class="detail-container">
+            <div class="links">
+                {% set image = product.productImage.one() %}
+                {% if image %}
+                    <img src="{{ image.url }}" alt="Product Image" class="product-image">
+                {% endif %}
+            </div>
+            <div class="rechts">
+                <h2>{{ product.title }}</h2>
+                <p class="description">description</p><br>
+                <p class="price">Prijs</p>
+                <p class="tax">tax</p>
+                <p class="prijsbtw">prijsbtw</p>
+                <p class="stock">{{ product.productStock }}</p><br>
+                <p class="creator">creator</p>
+                <p class="release-year">year</p><br>
+                <button class="add-to-cart-button" id="button2">Add to cart</button>
             </div>
         </div>
-    </section>
-{% else %}
-    <p>Product not found.</p>
-{% endif %}
+    {% else %}
+        <p>{{ Error }}</p>
+    {% endif %}
+{% endblock %}
+
