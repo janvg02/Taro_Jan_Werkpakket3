@@ -66,6 +66,21 @@ fieldLayouts:
             width: 100
           -
             elementCondition: null
+            fieldUid: d79f1b79-38ba-4ef3-b220-188e2ce51546
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: f11ba841-5ac4-40b0-9f33-d73d8a7f0aae
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
             fieldUid: df97fb95-f77f-4606-b7a8-a582bc3c0b17 # Product Image
             handle: null
             includeInCards: false
@@ -106,6 +121,21 @@ fieldLayouts:
             tip: null
             type: craft\fieldlayoutelements\CustomField
             uid: 9e2bec63-c239-4986-b6de-415040b86873
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 8b64442a-5a5a-47ad-a921-8b33882ecdb8 # Specific Year
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 251e0dbc-987b-48e5-a2c4-f7008659eb33
             userCondition: null
             warning: null
             width: 100

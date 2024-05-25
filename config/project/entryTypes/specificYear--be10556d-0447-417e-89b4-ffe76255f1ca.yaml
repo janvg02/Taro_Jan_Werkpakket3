@@ -1,0 +1,50 @@
+color: null
+fieldLayouts:
+  ceb55c00-fca9-4ee6-878e-bcdbd4e6ff0a:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: 'Type the year it was made in : ex. 1999'
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: e4b9b4ca-48a9-45a8-990a-3abdadd43807
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 13ff8f18-3627-4168-9fd5-bb8d9521c48c
+        userCondition: null
+handle: specificYear
+hasTitleField: true
+icon: ''
+name: 'Specific Year'
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: ''
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

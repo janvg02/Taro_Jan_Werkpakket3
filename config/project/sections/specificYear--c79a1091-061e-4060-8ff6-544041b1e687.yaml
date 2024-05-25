@@ -1,0 +1,15 @@
+defaultPlacement: end
+enableVersioning: true
+entryTypes:
+  - be10556d-0447-417e-89b4-ffe76255f1ca # Specific Year
+handle: specificYear
+maxAuthors: 1
+name: 'Specific Year'
+propagationMethod: all
+siteSettings:
+  87fde7cd-02f1-444b-9746-36ffea041512: # Taro_Jan_Werkpakket3
+    enabledByDefault: true
+    hasUrls: false
+    template: null
+    uriFormat: null
+type: channel
