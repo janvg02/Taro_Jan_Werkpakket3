@@ -1,4 +1,4 @@
-dateModified: 1716631678
+dateModified: 1716636992
 email:
   fromEmail: 12102676@student.pxl.be
   fromName: Taro_Jan_Werkpakket3
@@ -51,7 +51,7 @@ meta:
     c37668c3-44bd-42e8-bb53-d7a25fb8f515: Products # Products
     cb5c4e4b-26b4-4570-8a74-46d95b330592: Straat # Straat
     cc8b1d23-89d1-41d3-8956-bd972896da08: Footer # Footer
-    d4c05d4c-7e4c-492c-981f-6d6d10b1b534: Filters # Filters
+    d4c05d4c-7e4c-492c-981f-6d6d10b1b534: 'Release Year' # Release Year
     d32fb5a3-3240-4a6e-8bd5-424f947e7719: 'Contact Form' # Contact Form
     d83e91bf-5e17-4faf-85f6-cf0707e0ef3b: 'Nieuwsbrief Form' # Nieuwsbrief Form
     d745ad65-c9b0-4fc3-838e-324c75f466ed: New # New
