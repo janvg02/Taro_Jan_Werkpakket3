@@ -1,7 +1,7 @@
 columnSuffix: null
 handle: releaseYear
 instructions: 'Choose the release year and the company who produced the product'
-name: Filters
+name: 'Release Year'
 searchable: false
 settings:
   allowSelfRelations: false

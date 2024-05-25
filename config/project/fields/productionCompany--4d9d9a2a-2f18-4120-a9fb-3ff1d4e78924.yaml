@@ -14,7 +14,7 @@ settings:
   showCardsInGrid: false
   showSiteMenu: true
   sources:
-    - 'section:10c9bb8b-fdce-4665-8835-ed78a0d01ae4' # Production company
+    - 'section:10c9bb8b-fdce-4665-8835-ed78a0d01ae4'
   targetSiteId: null
   validateRelatedElements: false
   viewMode: list

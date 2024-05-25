@@ -1,7 +1,7 @@
 defaultPlacement: end
 enableVersioning: true
 entryTypes:
-  - f2bb5775-4a01-452b-9d65-a133844faa38 # Maak Pagina aan
+  - f2bb5775-4a01-452b-9d65-a133844faa38
 handle: nieuwePagina
 maxAuthors: 1
 name: 'Nieuwe Pagina (voor content manager)'
