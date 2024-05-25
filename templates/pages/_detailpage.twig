@@ -1,0 +1,20 @@
+{% set product = craft.entries.slug(craft.app.request.getSegment(2)).section('product').one() %}
+{% hook 'after-body-start' %}
+
+{% if product %}
+    <section>
+        <div class="product-detail">
+            {% set image = product.productImage.one() %}
+            {% if image %}
+                <img src="{{ image.url }}" alt="{{ product.title }}" class="product-image">
+            {% endif %}
+            <div class="product-detail-info">
+                <h1>{{ product.title }}</h1>
+                <p> {{ product.productStock }}</p>
+                <button class="add-to-cart-button">Add to cart</button>
+            </div>
+        </div>
+    </section>
+{% else %}
+    <p>Product not found.</p>
+{% endif %}

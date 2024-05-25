@@ -1,0 +1,49 @@
+altTranslationKeyFormat: null
+altTranslationMethod: none
+fieldLayouts:
+  965acdb4-f74d-4d88-8983-fe21e21e99c0:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\assets\AssetTitleField
+            uid: 84d57ca7-e11b-4a78-aae6-a19fd65a8d39
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: d224cd5a-d1f5-453b-a0a4-6822e8d96aa1
+        userCondition: null
+fs: nieuweAfbeeldingen
+handle: nieuweAfbeelding
+name: 'Nieuwe Afbeelding'
+sortOrder: 3
+subpath: ''
+titleTranslationKeyFormat: null
+titleTranslationMethod: site
+transformFs: ''
+transformSubpath: ''

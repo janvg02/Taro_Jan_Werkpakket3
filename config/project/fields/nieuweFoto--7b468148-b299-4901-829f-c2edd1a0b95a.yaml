@@ -1,0 +1,35 @@
+columnSuffix: null
+handle: nieuweFoto
+instructions: 'Upload hier de foto voor op je pagina'
+name: 'Nieuwe Foto'
+searchable: false
+settings:
+  allowSelfRelations: false
+  allowSubfolders: false
+  allowUploads: true
+  allowedKinds: null
+  branchLimit: null
+  defaultUploadLocationSource: 'volume:c37668c3-44bd-42e8-bb53-d7a25fb8f515' # Products
+  defaultUploadLocationSubpath: null
+  localizeRelations: false
+  maintainHierarchy: false
+  maxRelations: null
+  minRelations: null
+  previewMode: full
+  restrictFiles: false
+  restrictLocation: false
+  restrictedDefaultUploadSubpath: null
+  restrictedLocationSource: 'volume:8d1c6bd8-76de-4a5c-9eb4-edde84820ba3' # Nieuwe Afbeelding
+  restrictedLocationSubpath: null
+  selectionLabel: ' '
+  showCardsInGrid: false
+  showSiteMenu: true
+  showUnpermittedFiles: false
+  showUnpermittedVolumes: false
+  sources: '*'
+  targetSiteId: null
+  validateRelatedElements: false
+  viewMode: list
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Assets

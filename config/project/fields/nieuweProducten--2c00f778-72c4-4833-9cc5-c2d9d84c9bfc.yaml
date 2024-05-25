@@ -1,20 +1,20 @@
 columnSuffix: null
-handle: releaseYear
-instructions: 'Choose the release year and the company who produced the product'
-name: Filters
+handle: nieuweProducten
+instructions: 'Kies hier de 3 producten die je wil tonen'
+name: 'Nieuwe Populaire Producten'
 searchable: false
 settings:
   allowSelfRelations: false
   branchLimit: null
   localizeRelations: false
   maintainHierarchy: false
-  maxRelations: 1
-  minRelations: 1
+  maxRelations: 3
+  minRelations: 3
   selectionLabel: null
   showCardsInGrid: false
-  showSiteMenu: true
+  showSiteMenu: false
   sources:
-    - 'section:9a508750-43ce-4b63-ae4c-93c4079f23c6' # Release Years
+    - 'section:183f5403-7918-4d1e-bbd8-25b120259ce6' # Product
   targetSiteId: null
   validateRelatedElements: false
   viewMode: list

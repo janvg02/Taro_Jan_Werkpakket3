@@ -1,23 +1,22 @@
 columnSuffix: null
-handle: releaseYear
-instructions: 'Choose the release year and the company who produced the product'
-name: Filters
+handle: nieuweForm
+instructions: 'Maak hier je form aan'
+name: 'Nieuwe Form'
 searchable: false
 settings:
   allowSelfRelations: false
   branchLimit: null
   localizeRelations: false
   maintainHierarchy: false
-  maxRelations: 1
-  minRelations: 1
+  maxRelations: null
+  minRelations: null
   selectionLabel: null
   showCardsInGrid: false
   showSiteMenu: true
-  sources:
-    - 'section:9a508750-43ce-4b63-ae4c-93c4079f23c6' # Release Years
+  sources: '*'
   targetSiteId: null
   validateRelatedElements: false
   viewMode: list
 translationKeyFormat: null
 translationMethod: site
-type: craft\fields\Entries
+type: verbb\formie\fields\Forms
