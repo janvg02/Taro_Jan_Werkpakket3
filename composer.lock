@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d7ec18899088e47623d8518bedb5f298",
+    "content-hash": "e0c4c1c1bbe3bbef44867540ed534d5b",
     "packages": [
         {
             "name": "bacon/bacon-qr-code",
@@ -969,6 +969,52 @@
                 "validator"
             ],
             "time": "2023-06-01T07:04:22+00:00"
+        },
+        {
+            "name": "elleracompany/craft-cookie-consent",
+            "version": "5.0.1",
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/elleracompany/craft-cookie-consent/zipball/b2f361066f056cf74c4ffb0350d067bf6c892718",
+                "reference": "b2f361066f056cf74c4ffb0350d067bf6c892718",
+                "shasum": ""
+            },
+            "require": {
+                "craftcms/cms": "^5.0",
+                "ext-json": "*"
+            },
+            "type": "craft-plugin",
+            "extra": {
+                "name": "Cookie Consent",
+                "handle": "cookie-consent",
+                "documentationUrl": "https://github.com/elleracompany/craft-cookie-consent/blob/master/README.md",
+                "changelogUrl": "https://github.com/elleracompany/craft-cookie-consent/blob/master/CHANGELOG.md",
+                "class": "elleracompany\\cookieconsent\\CookieConsent"
+            },
+            "autoload": {
+                "psr-4": {
+                    "elleracompany\\cookieconsent\\": "src/"
+                }
+            },
+            "license": [
+                "proprietary"
+            ],
+            "authors": [
+                {
+                    "name": "Ellera AS",
+                    "homepage": "https://ellera.no"
+                }
+            ],
+            "description": "Craft Cookie Consent Plugin",
+            "keywords": [
+                "consent",
+                "cookies",
+                "gdpr"
+            ],
+            "support": {
+                "email": "support@ellera.no"
+            },
+            "time": "2024-05-02T05:48:54+00:00"
         },
         {
             "name": "elvanto/litemoji",
