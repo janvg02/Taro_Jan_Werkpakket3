@@ -1,4 +1,4 @@
-dateModified: 1716498029
+dateModified: 1716563028
 email:
   fromEmail: 12102676@student.pxl.be
   fromName: Taro_Jan_Werkpakket3
@@ -74,9 +74,8 @@ plugins:
     licenseKey: VIJCBRO9PUJMEPA0RD767078
     schemaVersion: 3.4.4
   freeform:
-    edition: pro
+    edition: express
     enabled: true
-    licenseKey: 60X49OLUTFGMRZZEGKMWK0JB
     schemaVersion: 5.1.0
   navigate:
     edition: standard
@@ -90,10 +89,3 @@ system:
   retryDuration: null
   schemaVersion: 5.0.0.20
   timeZone: Europe/Brussels
-users:
-  allowPublicRegistration: false
-  defaultGroup: null
-  photoSubpath: null
-  photoVolumeUid: null
-  require2fa: false
-  requireEmailVerification: true

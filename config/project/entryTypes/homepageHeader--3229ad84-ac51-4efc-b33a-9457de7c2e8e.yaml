@@ -99,12 +99,12 @@ fieldLayouts:
         userCondition: null
 handle: homepageHeader
 hasTitleField: true
-icon: ''
+icon: null
 name: 'Homepage Header'
 showSlugField: true
 showStatusField: true
 slugTranslationKeyFormat: null
 slugTranslationMethod: site
-titleFormat: ''
+titleFormat: null
 titleTranslationKeyFormat: null
 titleTranslationMethod: site

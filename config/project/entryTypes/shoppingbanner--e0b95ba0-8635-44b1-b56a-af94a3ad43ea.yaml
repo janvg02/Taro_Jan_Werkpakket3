@@ -84,12 +84,12 @@ fieldLayouts:
         userCondition: null
 handle: shoppingbanner
 hasTitleField: true
-icon: ''
+icon: null
 name: shoppingBanner
 showSlugField: true
 showStatusField: true
 slugTranslationKeyFormat: null
 slugTranslationMethod: site
-titleFormat: ''
+titleFormat: null
 titleTranslationKeyFormat: null
 titleTranslationMethod: site

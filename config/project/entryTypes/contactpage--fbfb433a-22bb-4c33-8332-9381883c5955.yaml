@@ -171,12 +171,12 @@ fieldLayouts:
         userCondition: null
 handle: contactpage
 hasTitleField: true
-icon: ''
+icon: null
 name: Contactpage
 showSlugField: true
 showStatusField: true
 slugTranslationKeyFormat: null
 slugTranslationMethod: site
-titleFormat: ''
+titleFormat: null
 titleTranslationKeyFormat: null
 titleTranslationMethod: site

@@ -79,32 +79,17 @@ fieldLayouts:
             userCondition: null
             warning: null
             width: 100
-          -
-            elementCondition: null
-            fieldUid: 2365d0b2-a215-42ba-8035-97b029ad5eaf
-            handle: null
-            includeInCards: false
-            instructions: null
-            label: null
-            providesThumbs: false
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            uid: 234f824c-7b9f-40bf-ba83-a7557b0993db
-            userCondition: null
-            warning: null
-            width: 100
         name: Content
         uid: e0ce9f37-c0a5-45c0-ab7c-6c59acecd47c
         userCondition: null
 handle: product
 hasTitleField: true
-icon: ''
+icon: null
 name: Product
 showSlugField: true
 showStatusField: true
 slugTranslationKeyFormat: null
 slugTranslationMethod: site
-titleFormat: ''
+titleFormat: null
 titleTranslationKeyFormat: null
 titleTranslationMethod: site

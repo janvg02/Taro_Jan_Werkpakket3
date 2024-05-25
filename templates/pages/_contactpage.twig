@@ -7,24 +7,19 @@
 <section>
 
 <div class="contact-header">
-<h1>{{contactPageEntry.headerTitel}}</h1>
+<h1>{{entry.headerTitel}}</h1>
 </div>
 
-<div class="contact-header">
-{{ freeform.form(entry.contactForm).render() }}
-</div>
+{{ craft.formie.renderForm("contact") }}
 
-<div class="contact-header">
-<h1>{{contactPageEntry.headerTitel2}}</h1>
-{{ freeform.form(entry.nieuwsbriefForm).render() }}
-</div
+
 
 <div class="contact-header">
 <h1>{{contactPageEntry.headerTitel3}}</h1>
 <p>{{contactPageEntry.mail}}</p>
 <p>{{contactPageEntry.gsmNummer}}</p>
 <p>{{contactPageEntry.straat}}</p>
-</div
+</div>
 
 
 
