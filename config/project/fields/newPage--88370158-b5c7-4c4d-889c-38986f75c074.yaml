@@ -1,0 +1,20 @@
+columnSuffix: null
+handle: newPage
+instructions: null
+name: 'New Page'
+searchable: false
+settings:
+  createButtonLabel: null
+  entryTypes:
+    - b45ba023-7d69-4a82-9e53-6a1b9d5c3ecb # Page Content
+  includeTableView: false
+  maxEntries: null
+  minEntries: null
+  pageSize: 50
+  propagationKeyFormat: null
+  propagationMethod: all
+  showCardsInGrid: false
+  viewMode: cards
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

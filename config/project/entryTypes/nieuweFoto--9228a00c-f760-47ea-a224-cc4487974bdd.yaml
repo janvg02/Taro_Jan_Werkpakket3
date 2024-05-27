@@ -1,0 +1,65 @@
+color: null
+fieldLayouts:
+  4771965e-89c4-4a0f-964e-937db7b84c58:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 16baf411-c0d4-4117-8efb-f7fcb2730082
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 7b468148-b299-4901-829f-c2edd1a0b95a
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 58bc45c9-28cd-4def-aea1-4004e7fd7bc2
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: c78881bf-38e5-4056-b8d2-33237571e12e
+        userCondition: null
+handle: nieuweFoto
+hasTitleField: false
+icon: ''
+name: 'Nieuwe Foto'
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: 'Image block'
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

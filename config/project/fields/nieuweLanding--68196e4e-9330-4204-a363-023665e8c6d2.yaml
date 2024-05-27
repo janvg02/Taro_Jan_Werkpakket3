@@ -1,0 +1,21 @@
+columnSuffix: null
+handle: nieuweLanding
+instructions: null
+name: 'Nieuwe Landing'
+searchable: false
+settings:
+  createButtonLabel: null
+  entryTypes:
+    - 93e9fae5-14e9-4816-b21c-a3aad675f314 # Nieuwe Text
+    - 0bb869c2-7d24-45a3-a90e-37a8dfb35660 # Nieuwe Form
+  includeTableView: false
+  maxEntries: null
+  minEntries: null
+  pageSize: 50
+  propagationKeyFormat: null
+  propagationMethod: all
+  showCardsInGrid: false
+  viewMode: cards
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

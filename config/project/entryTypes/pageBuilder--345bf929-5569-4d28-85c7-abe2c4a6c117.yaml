@@ -1,0 +1,75 @@
+color: null
+fieldLayouts:
+  c00d7bc5-c346-4ba6-b045-1ab2ad4c7966:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: eca23cc1-24be-4d26-b267-9b2941366269
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 88370158-b5c7-4c4d-889c-38986f75c074 # New Page
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 5260825f-bb18-4b03-bb36-1e573c3bbaf0
+            userCondition: null
+            warning: null
+            width: 100
+        name: Landing
+        uid: fc8777c1-d5e0-4793-9227-2bfb82aeae06
+        userCondition: null
+      -
+        elementCondition: null
+        name: Form
+        uid: 842831b1-6cd4-48c4-bf7a-a9538ae96db8
+        userCondition: null
+      -
+        elementCondition: null
+        name: 'New Products'
+        uid: 06de5198-35b3-43f4-8048-466ec1813588
+        userCondition: null
+handle: pageBuilder
+hasTitleField: false
+icon: ''
+name: 'Page builder'
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: 'Page builder'
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

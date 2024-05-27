@@ -1,0 +1,16 @@
+{% extends "base/_layout.twig" %}
+    {% set blocks = entry.newPage.all() %}
+{# {% dd(blocks) %} #}
+
+{% block content %}
+{% for block in blocks %}
+
+
+    <div >
+            {% include 'components/_' ~ block.type.handle  %}
+    </div>
+
+
+{% endfor %}
+
+{% endblock %}

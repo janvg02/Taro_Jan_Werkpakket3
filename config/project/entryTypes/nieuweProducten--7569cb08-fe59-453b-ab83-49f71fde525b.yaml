@@ -1,0 +1,65 @@
+color: null
+fieldLayouts:
+  9478a4d2-d902-4810-a5d2-6443b15692a1:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 4214a1fe-7970-4f0a-865e-96275dd59ae4
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 2c00f778-72c4-4833-9cc5-c2d9d84c9bfc
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 9a0c476c-66f5-472e-ae68-06f3f03b1a7b
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: a8c68572-3cfa-4d8f-b62c-817d6e10c087
+        userCondition: null
+handle: nieuweProducten
+hasTitleField: false
+icon: ''
+name: 'Nieuwe producten'
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: 'Producten Block'
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

@@ -1,4 +1,4 @@
-dateModified: 1716640966
+dateModified: 1716834286
 email:
   fromEmail: 12102676@student.pxl.be
   fromName: Taro_Jan_Werkpakket3
@@ -20,11 +20,14 @@ fs:
     url: '@baseUrl/products'
 meta:
   __names__:
+    0bb869c2-7d24-45a3-a90e-37a8dfb35660: 'Nieuwe Form' # Nieuwe Form
     1a68bcb2-b209-4c39-bf5d-f44664978609: Navbar # Navbar
     1ccb56f6-722a-4d88-a56c-01ae20e7d7d7: Adres # Adres
     2a7768c8-a13e-4df0-b195-fa51e9645acf: shoppingpage # shoppingpage
     02fc9904-1bcf-413f-9c91-107b01d07adc: Year # Year
+    3bb45502-fe6d-427a-ba4c-803684d131b2: 'New Description' # New Description
     3bed8216-16ac-401b-863f-1c8a0257a606: Telefoonnummer # Telefoonnummer
+    4e166e19-7e00-4c15-92ae-20928a7a688a: 'Form Description' # Form Description
     8b64442a-5a5a-47ad-a921-8b33882ecdb8: 'Specific Year' # Specific Year
     9a508750-43ce-4b63-ae4c-93c4079f23c6: 'Release Years' # Release Years
     09c3610b-7e94-41f2-a2cf-e82695b4ba2c: Taro_Jan_Werkpakket3 # Taro_Jan_Werkpakket3
@@ -32,19 +35,30 @@ meta:
     33f76516-a392-46f5-9c91-d4f15708f1ae: 'Shopping Page' # Shopping Page
     52cda86a-aa53-481d-bfea-9647f2ebcf95: 'Afbeelding Header' # Afbeelding Header
     53b54b18-97b1-44d7-a3c6-d3d42695a567: Mail # Mail
+    56ec8c4e-4ddf-47df-8880-af06da817144: 'New Title' # New Title
+    66d1a481-6151-49de-9659-d32d9fcc78dc: 'New Page' # New Page
     69e3067d-55bc-4402-b9d5-87639c5a3263: 'Header Image' # Header Image
     87fde7cd-02f1-444b-9746-36ffea041512: Taro_Jan_Werkpakket3 # Taro_Jan_Werkpakket3
+    93e9fae5-14e9-4816-b21c-a3aad675f314: 'Nieuwe Text' # Nieuwe Text
     96a473ad-0b7a-4a3f-878a-af8a5c259a6b: 'Sociale media' # Sociale media
     98a6f92c-170b-4702-a172-2f94801a3a43: 'GSM Nummer' # GSM Nummer
     183f5403-7918-4d1e-bbd8-25b120259ce6: Product # Product
     301e3e3a-4891-41e2-9a98-72e85b6482ff: 'Jaar van uitgave' # Jaar van uitgave
+    345bf929-5569-4d28-85c7-abe2c4a6c117: 'Page builder' # Page builder
     759ad69a-d4f3-4a8c-9394-9feae4c8df23: Mailadres # Mailadres
     2685b248-da85-4b33-902d-ef8468f92c97: homepage # homepage
     3229ad84-ac51-4efc-b33a-9457de7c2e8e: 'Homepage Header' # Homepage Header
     6627b236-e5eb-42ef-bb61-0174d50fb165: 'Product Stock' # Product Stock
+    7569cb08-fe59-453b-ab83-49f71fde525b: 'Nieuwe producten' # Nieuwe producten
+    08176d0a-96e9-4226-bde0-acb9095dfa92: Form # Form
+    9228a00c-f760-47ea-a224-cc4487974bdd: 'Nieuwe Foto' # Nieuwe Foto
+    68196e4e-9330-4204-a363-023665e8c6d2: 'Nieuwe Landing' # Nieuwe Landing
+    26605419-b712-41ef-96c6-7883464a0929: 'New Image' # New Image
     45503393-00b8-49b9-abfd-78c3f4b3e11f: Description # Description
+    88370158-b5c7-4c4d-889c-38986f75c074: 'New Page' # New Page
     a1356ef7-3612-4f92-8db8-24af453fedaf: Product # Product
     adf16fba-8454-4104-aeea-218979b59f28: 'Contact Form' # Contact Form
+    b45ba023-7d69-4a82-9e53-6a1b9d5c3ecb: 'Page Content' # Page Content
     b83a1e41-f048-4e4d-9ff2-71fe6067de34: 'Home Page' # Home Page
     bd208b06-b866-42b2-9e06-337e324ac776: 'Homepage tussentitel' # Homepage tussentitel
     be10556d-0447-417e-89b4-ffe76255f1ca: 'Specific Year' # Specific Year
@@ -61,7 +75,11 @@ meta:
     dbc84721-8df9-40e4-b822-595d51b33d69: 'Public Schema' # Public Schema
     df97fb95-f77f-4606-b7a8-a582bc3c0b17: 'Product Image' # Product Image
     e0b95ba0-8635-44b1-b56a-af94a3ad43ea: shoppingBanner # shoppingBanner
+    e1d1f3e5-869c-460c-8113-231574d26416: 'New Form Title' # New Form Title
+    e7b32800-e955-4e5a-b872-4206d8e2ac49: 'Form Description' # Form Description
     e645c5de-ad7e-4d1e-a46d-2803f03cf11d: Instagram # Instagram
+    e9867e80-0698-4a70-8a1d-0d4b513d60a0: 'New Products Block' # New Products Block
+    e6450556-6e66-45db-bdd6-dc14400309ef: 'New Form Description' # New Form Description
     f8714083-bbd0-4185-b256-8742af4dad24: 'Introductie Tekst' # Introductie Tekst
     fb1d8fd0-4411-4be2-bfe0-cff0a440e274: 'Header Titel' # Header Titel
     fbfb433a-22bb-4c33-8332-9381883c5955: Contactpage # Contactpage

@@ -1,10 +1,10 @@
 defaultPlacement: end
 enableVersioning: true
 entryTypes:
-  - f2bb5775-4a01-452b-9d65-a133844faa38
-handle: nieuwePagina
+  - 345bf929-5569-4d28-85c7-abe2c4a6c117 # Page builder
+handle: newPage
 maxAuthors: 1
-name: 'Nieuwe Pagina (voor content manager)'
+name: 'New Page'
 previewTargets:
   -
     __assoc__:
@@ -21,7 +21,10 @@ propagationMethod: all
 siteSettings:
   87fde7cd-02f1-444b-9746-36ffea041512: # Taro_Jan_Werkpakket3
     enabledByDefault: true
-    hasUrls: false
-    template: null
-    uriFormat: null
-type: channel
+    hasUrls: true
+    template: pages/_content-managerPage.twig
+    uriFormat: new-page
+structure:
+  maxLevels: null
+  uid: 9d0fd0bc-d861-41c3-b037-08f984d704c5
+type: structure
