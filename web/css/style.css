@@ -307,7 +307,6 @@ a {
   color: #718CFE;
 }
 
-/* Ensure box-sizing includes padding and border in the width */
 *,
 *::before,
 *::after {
@@ -316,18 +315,18 @@ a {
 
 .text, .image {
   width: 50%;
-  padding: 0; /* Ensure no padding */
-  margin: 0; /* Ensure no margin */
+  padding: 0;
+  margin: 0;
 }
 
 .fui-page-container {
   width: 70%;
-  margin: 0 auto; /* Center the container */
+  margin: 0 auto;
 }
 
 .fui-btn:not(:disabled):not(.disabled) {
-  display: block; /* Ensure block display */
-  margin: 1rem auto; /* Center the button */
+  display: block;
+  margin: 1rem auto;
 }
 
 #formContent h1 {
@@ -339,13 +338,24 @@ a {
 #rowContent {
   display: flex;
   flex-direction: row;
-  width: 100%; /* Ensure the flex container does not exceed 100% */
-  padding: 0; /* Ensure no padding */
-  margin: 0; /* Ensure no margin */
+  width: 100%;
+  padding: 5% 15%;
+  margin: 0;
 }
 
 #contentpagina {
   max-width: 99%;
+}
+
+#pageHeader {
+  align-content: center;
+  justify-content: center;
+}
+#pageHeader h1 {
+  font-size: 75px;
+}
+#pageHeader p {
+  font-size: 20px;
 }
 
 #footer {
