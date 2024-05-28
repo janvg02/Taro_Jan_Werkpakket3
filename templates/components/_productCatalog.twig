@@ -20,6 +20,7 @@
 
 <section>
     <div class="page-container">
+
         <div class="filter-container">
             <div class="filter-section">
                 <form method="get" id="filterForm">
@@ -30,7 +31,6 @@
                             <label class="filter-text" for="releaseYear{{ releaseYear.id }}">{{ releaseYear.title }}</label>
                         </div>
                     {% endfor %}
-
                     <h2>Bedrijf</h2>
                     {% for productionCompany in craft.entries.section('productionCompany') %}
                         <div class="filterItem">
