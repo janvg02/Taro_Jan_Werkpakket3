@@ -1,6 +1,6 @@
 color: null
 fieldLayouts:
-  1c09b998-0fa4-407c-bcd6-60b9124a2d2b:
+  73947ecd-f204-4425-8557-9097161759af:
     tabs:
       -
         elementCondition: null
@@ -30,13 +30,13 @@ fieldLayouts:
             tip: null
             title: null
             type: craft\fieldlayoutelements\entries\EntryTitleField
-            uid: 28897c02-e1b0-49e6-bd06-f49da1b219d2
+            uid: f58b032a-3952-420a-b1f2-c96bcb48dbc8
             userCondition: null
             warning: null
             width: 100
           -
             elementCondition: null
-            fieldUid: 56ec8c4e-4ddf-47df-8880-af06da817144 # New Title
+            fieldUid: e1d1f3e5-869c-460c-8113-231574d26416 # New Form Title
             handle: null
             includeInCards: false
             instructions: null
@@ -45,13 +45,13 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 71170b46-9210-46ae-8ebf-69aa6f636ec2
+            uid: 20b97d98-6af1-44e4-bf0b-235efd0731f3
             userCondition: null
             warning: null
             width: 100
           -
             elementCondition: null
-            fieldUid: 3bb45502-fe6d-427a-ba4c-803684d131b2 # New Description
+            fieldUid: 4e166e19-7e00-4c15-92ae-20928a7a688a # Form Description
             handle: null
             includeInCards: false
             instructions: null
@@ -60,13 +60,13 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 04ea6700-c8fa-4f13-8faa-c5e7d97fd5a9
+            uid: 2e9dac56-cb95-4322-b101-7d47a652b853
             userCondition: null
             warning: null
             width: 100
           -
             elementCondition: null
-            fieldUid: 26605419-b712-41ef-96c6-7883464a0929 # New Image
+            fieldUid: 8a0b203e-0bcb-4d1f-ba7c-eff8a05184fa
             handle: null
             includeInCards: false
             instructions: null
@@ -75,36 +75,21 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: e14685b7-756c-4cd2-ad61-358297e7f72b
+            uid: afd07ffd-e58c-44ce-b0be-c19013214906
             userCondition: null
             warning: null
             width: 100
-          -
-            elementCondition: null
-            fieldUid: 2b584349-af99-4c63-8c10-3ac6fbc8d9dc # Position Image
-            handle: null
-            includeInCards: false
-            instructions: null
-            label: null
-            providesThumbs: false
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            uid: 829a3d9f-0956-4ab5-9c65-fbf675d744cc
-            userCondition: null
-            warning: null
-            width: 100
-        name: Landing
-        uid: 92594267-3346-45e0-9c89-2aecabf5be76
+        name: Content
+        uid: 6c4bb674-c73d-4bae-8c8a-b05d30b15d0d
         userCondition: null
-handle: pageContent
+handle: newForm
 hasTitleField: false
 icon: ''
-name: 'Page Content'
+name: 'New Form'
 showSlugField: true
 showStatusField: true
 slugTranslationKeyFormat: null
 slugTranslationMethod: site
-titleFormat: 'Page Content'
+titleFormat: 'Form Block'
 titleTranslationKeyFormat: null
 titleTranslationMethod: site

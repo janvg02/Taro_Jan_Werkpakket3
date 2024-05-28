@@ -7,6 +7,8 @@ settings:
   createButtonLabel: null
   entryTypes:
     - b45ba023-7d69-4a82-9e53-6a1b9d5c3ecb # Page Content
+    - be4b07fb-a700-4a7c-a73f-3a4e00d62ef6 # New Form
+    - 2aad0540-b239-4b23-ad6e-45dc25f34a5c # New Products
   includeTableView: false
   maxEntries: null
   minEntries: null

@@ -1,4 +1,4 @@
-dateModified: 1716834286
+dateModified: 1716887223
 email:
   fromEmail: 12102676@student.pxl.be
   fromName: Taro_Jan_Werkpakket3
@@ -24,6 +24,8 @@ meta:
     1a68bcb2-b209-4c39-bf5d-f44664978609: Navbar # Navbar
     1ccb56f6-722a-4d88-a56c-01ae20e7d7d7: Adres # Adres
     2a7768c8-a13e-4df0-b195-fa51e9645acf: shoppingpage # shoppingpage
+    2aad0540-b239-4b23-ad6e-45dc25f34a5c: 'New Products' # New Products
+    2b584349-af99-4c63-8c10-3ac6fbc8d9dc: 'Position Image' # Position Image
     02fc9904-1bcf-413f-9c91-107b01d07adc: Year # Year
     3bb45502-fe6d-427a-ba4c-803684d131b2: 'New Description' # New Description
     3bed8216-16ac-401b-863f-1c8a0257a606: Telefoonnummer # Telefoonnummer
@@ -33,6 +35,7 @@ meta:
     09c3610b-7e94-41f2-a2cf-e82695b4ba2c: Taro_Jan_Werkpakket3 # Taro_Jan_Werkpakket3
     22a19b0b-54e1-4c5c-9b18-fa4bf53cccc3: 'Production Company' # Production Company
     33f76516-a392-46f5-9c91-d4f15708f1ae: 'Shopping Page' # Shopping Page
+    37cd11b1-4e0e-4be8-ad97-46a05c3de264: Direction # Direction
     52cda86a-aa53-481d-bfea-9647f2ebcf95: 'Afbeelding Header' # Afbeelding Header
     53b54b18-97b1-44d7-a3c6-d3d42695a567: Mail # Mail
     56ec8c4e-4ddf-47df-8880-af06da817144: 'New Title' # New Title
@@ -61,6 +64,7 @@ meta:
     b45ba023-7d69-4a82-9e53-6a1b9d5c3ecb: 'Page Content' # Page Content
     b83a1e41-f048-4e4d-9ff2-71fe6067de34: 'Home Page' # Home Page
     bd208b06-b866-42b2-9e06-337e324ac776: 'Homepage tussentitel' # Homepage tussentitel
+    be4b07fb-a700-4a7c-a73f-3a4e00d62ef6: 'New Form' # New Form
     be10556d-0447-417e-89b4-ffe76255f1ca: 'Specific Year' # Specific Year
     be799785-5696-43d6-a6a8-42847acaaa55: 1980-1990 # 1980-1990
     c5afde39-203f-46b7-836f-759556a4c841: Contactpage # Contactpage
@@ -80,6 +84,7 @@ meta:
     e645c5de-ad7e-4d1e-a46d-2803f03cf11d: Instagram # Instagram
     e9867e80-0698-4a70-8a1d-0d4b513d60a0: 'New Products Block' # New Products Block
     e6450556-6e66-45db-bdd6-dc14400309ef: 'New Form Description' # New Form Description
+    ed7fa7e8-daab-496e-a755-e0a1fc957e8f: 'Direction Image' # Direction Image
     f8714083-bbd0-4185-b256-8742af4dad24: 'Introductie Tekst' # Introductie Tekst
     fb1d8fd0-4411-4be2-bfe0-cff0a440e274: 'Header Titel' # Header Titel
     fbfb433a-22bb-4c33-8332-9381883c5955: Contactpage # Contactpage

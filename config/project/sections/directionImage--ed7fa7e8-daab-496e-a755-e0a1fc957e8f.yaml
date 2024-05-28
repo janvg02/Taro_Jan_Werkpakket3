@@ -1,0 +1,27 @@
+defaultPlacement: end
+enableVersioning: true
+entryTypes:
+  - 37cd11b1-4e0e-4be8-ad97-46a05c3de264 # Direction
+handle: directionImage
+maxAuthors: 1
+name: 'Direction Image'
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
+      -
+        - refresh
+        - '1'
+propagationMethod: all
+siteSettings:
+  87fde7cd-02f1-444b-9746-36ffea041512: # Taro_Jan_Werkpakket3
+    enabledByDefault: true
+    hasUrls: true
+    template: direction-image/_entry
+    uriFormat: 'direction-image/{slug}'
+type: channel

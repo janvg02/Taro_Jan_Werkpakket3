@@ -1,20 +1,20 @@
 columnSuffix: null
-handle: newProductsBlock
-instructions: "Choose 3 products you want to show\r\n"
-name: 'New Products Block'
+handle: positionImage
+instructions: "Select the position you want the image to be in\r\n"
+name: 'Position Image'
 searchable: false
 settings:
   allowSelfRelations: false
   branchLimit: null
   localizeRelations: false
   maintainHierarchy: false
-  maxRelations: 3
-  minRelations: 3
+  maxRelations: 1
+  minRelations: 1
   selectionLabel: null
   showCardsInGrid: false
   showSiteMenu: true
   sources:
-    - 'section:183f5403-7918-4d1e-bbd8-25b120259ce6' # Product
+    - 'section:ed7fa7e8-daab-496e-a755-e0a1fc957e8f' # Direction Image
   targetSiteId: null
   validateRelatedElements: false
   viewMode: list

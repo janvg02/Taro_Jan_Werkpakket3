@@ -1,1 +1,24 @@
-<p>Page Content Component Loaded Successfully!</p>
+
+
+
+<section>
+    <div class="row">
+        {% if block.positionImage.one().title == "Left" %}
+            <div class="image">
+                <img src="{{ block.newImage.one().url }}" alt="{{ block.newImage.one().title }}"></img>
+            </div>
+            <div class="text">
+                <p>{{ block.newTitle }}<p>
+                <p>{{ block.newDescription }}</p>
+            </div>
+        {% else %}
+            <div class="text">
+                <p>{{ block.newTitle }}</p>
+                <p>{{ block.newDescription }}</p>
+            </div>
+            <div class="image">
+                <img src="{{ block.newImage.one().url }}" alt="{{ block.newImage.one().title }}"></img>
+            </div>
+        {% endif %}
+    </div>
+</section>
