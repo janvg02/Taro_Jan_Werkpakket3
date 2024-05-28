@@ -20,20 +20,24 @@
   margin: 1rem auto; 
 }
 
-#formContent h1 {
+.formTitel {
   width: 100%;
   padding-left: 15%;
   margin-top: 3rem;
-  
+  color: #718CFE;
+
 }
 
 #rowContent {
   display: flex;
   flex-direction: row;
   width: 100%; 
-  padding: 5% 15% ; 
+  padding: 0 15% ; 
   margin: 0; 
-}
+  
+
+  
+  }
 
 #contentpagina
 {
@@ -43,10 +47,17 @@
 #pageHeader{
   align-content: center;
   justify-content: center;
-  h1{
-    font-size: 75px;
-  }
+  padding: 2%;
   p{
     font-size: 20px;
   }
 }
+.title{
+  padding: 4%;
+  h1{
+    text-align: center;
+    font-size: 75px;
+    color: #718CFE;
+  }
+}
+

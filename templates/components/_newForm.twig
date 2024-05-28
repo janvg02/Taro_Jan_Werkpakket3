@@ -3,8 +3,12 @@
 
 <section id="formContent">
     <div>
-<h1 class="formTitel">{{ block.newFormTitle }}</h1>
-    {{ craft.formie.renderForm(block.nieuweForm.one().handle) }}
+        <div>
+            <h1 class="formTitel">{{ block.newFormTitle }}</h1>
+            <p class="formTitel">{{ block.formDescription }}</p>
+        </div>
+        <div>
+        {{ craft.formie.renderForm(block.nieuweForm.one().handle) }}
+        </div>
     </div>
-
 </section>
