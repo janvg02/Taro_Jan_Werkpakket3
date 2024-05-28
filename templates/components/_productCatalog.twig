@@ -17,30 +17,33 @@
 {% endif %}
 
 {% paginate entries.limit(6) as pageInfo, pageEntries %}
-{% hook 'after-body-start' %}
-
-
 
 <section>
     <div class="page-container">
         <div class="filter-container">
             <div class="filter-section">
-            <form method="get">
-                {% for releaseYear in craft.entries.section('releaseYears') %}
-                    <div class="filterItem">
-                        <input class="filter-checkbox" type="checkbox" id="{{ releaseYear.id }}" value="{{ releaseYear.id }}" name="releaseYear[]" {% if releaseQuery and releaseYear.id in releaseQuery %} checked {% endif %}>
-                        <label class="filter-text" for="{{ releaseYear.id }}">{{ releaseYear.title }}</label>
-                    </div>
-                {% endfor %}<br>
-                {% for productionCompany in craft.entries.section('productionCompany') %}
-                    <div class="filterItem">
-                        <input type="checkbox" id="{{ productionCompany.id }}" value="{{ productionCompany.id }}" name="productionCompany[]" {% if productionQuery and productionCompany.id in productionQuery %} checked {% endif %}>
-                        <label for="{{ productionCompany.id }}">{{ productionCompany.title }}</label>
-                    </div>
-                {% endfor %}
-                <button type="submit"  class="submitbutton">Submit</button>
-            </form>
-        </div></div>
+                <form method="get" id="filterForm">
+                    <h2>Jaar van uitgave</h2>
+                    {% for releaseYear in craft.entries.section('releaseYears') %}
+                        <div class="filterItem">
+                            <input class="filter-checkbox" type="radio" id="releaseYear{{ releaseYear.id }}" value="{{ releaseYear.id }}" name="releaseYear" {% if releaseQuery and releaseYear.id == releaseQuery %} checked {% endif %}>
+                            <label class="filter-text" for="releaseYear{{ releaseYear.id }}">{{ releaseYear.title }}</label>
+                        </div>
+                    {% endfor %}
+
+                    <h2>Bedrijf</h2>
+                    {% for productionCompany in craft.entries.section('productionCompany') %}
+                        <div class="filterItem">
+                            <input type="radio" id="productionCompany{{ productionCompany.id }}" value="{{ productionCompany.id }}" name="productionCompany" {% if productionQuery and productionCompany.id == productionQuery %} checked {% endif %}>
+                            <label for="productionCompany{{ productionCompany.id }}">{{ productionCompany.title }}</label>
+                        </div>
+                    {% endfor %}
+
+                    <button type="button" id="resetButton" class="add-to-cart-button">Reset Filters</button>
+                </form>
+            </div>
+        </div>
+
         <div class="product-container">
             {% if pageEntries | length %}
                 <ul class="product-lijst">
@@ -49,11 +52,13 @@
                         <li class="product-info">
                             <a href="{{ url('products/' ~ product.slug) }}">
                                 <img src="{{ image.url }}" alt="{{ product.title }}" class="product-image">
+
                                 <div class="product-details" id="details">
                                     <h1 class="product-title">{{ product.title }}</h1>
+                                    <p class="productdescription">{{ product.productDescription }}</p>
                                     <p class="stock">{{ product.productStock }}</p>
                                     <p class="price">€ {{ product.productPrice }}</p>
-                                    <button class="add-to-cart-button">View product</button>
+                                    <button class="add-to-cart-button">Bekijk product</button>
                                 </div>
                             </a>
                         </li>
@@ -74,4 +79,24 @@
     </div>
 </section>
 
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const filterForm = document.getElementById('filterForm');
+        const resetButton = document.getElementById('resetButton');
 
+        filterForm.addEventListener('change', function () {
+            filterForm.submit();
+        });
+
+        resetButton.addEventListener('click', function () {
+            // Reset all radio buttons
+            const radioButtons = filterForm.querySelectorAll('input[type="radio"]');
+            radioButtons.forEach(function (radio) {
+                radio.checked = false;
+            });
+
+            // Submit the form to apply the reset
+            filterForm.submit();
+        });
+    });
+</script>

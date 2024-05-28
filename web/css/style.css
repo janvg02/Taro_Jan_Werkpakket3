@@ -122,6 +122,13 @@ a {
   font-size: 50px;
 }
 
+.productdescription {
+  width: 80%;
+  text-align: center;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
 .contactTotaal {
   margin-top: 3rem;
   margin-bottom: 30rem;
@@ -169,7 +176,7 @@ a {
   list-style: none;
   padding: 0;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   margin-top: 6rem;
   margin-left: 5.2%;
 }
@@ -194,7 +201,6 @@ a {
 }
 
 .product-details {
-  width: 150px;
   padding-top: 1.5rem;
   color: #718CFE;
   font-weight: bold;
@@ -202,7 +208,7 @@ a {
 }
 
 .product-details1 {
-  width: 300px;
+  width: 400px;
   padding-top: 1.5rem;
   color: #718CFE;
   font-weight: bold;
@@ -253,10 +259,6 @@ a {
   cursor: pointer;
 }
 
-#details {
-  width: 300px;
-}
-
 .filter-section {
   margin-bottom: 20px;
   display: flex;
@@ -303,6 +305,47 @@ a {
 }
 .filterItem label {
   color: #718CFE;
+}
+
+/* Ensure box-sizing includes padding and border in the width */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.text, .image {
+  width: 50%;
+  padding: 0; /* Ensure no padding */
+  margin: 0; /* Ensure no margin */
+}
+
+.fui-page-container {
+  width: 70%;
+  margin: 0 auto; /* Center the container */
+}
+
+.fui-btn:not(:disabled):not(.disabled) {
+  display: block; /* Ensure block display */
+  margin: 1rem auto; /* Center the button */
+}
+
+#formContent h1 {
+  width: 100%;
+  padding-left: 15%;
+  margin-top: 3rem;
+}
+
+#rowContent {
+  display: flex;
+  flex-direction: row;
+  width: 100%; /* Ensure the flex container does not exceed 100% */
+  padding: 0; /* Ensure no padding */
+  margin: 0; /* Ensure no margin */
+}
+
+#contentpagina {
+  max-width: 99%;
 }
 
 #footer {

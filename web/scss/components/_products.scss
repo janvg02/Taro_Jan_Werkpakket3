@@ -2,7 +2,7 @@
   list-style: none;
   padding: 0;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   margin-top: 6rem;
   margin-left: 5.2%;
 }
@@ -24,10 +24,11 @@
   border: 5px solid #B95CED;
   border-radius: 5px;
   padding: 15px;
+
 }
 
 .product-details {
-  width: 150px;
+
   padding-top: 1.5rem;
   color: #718CFE;
   font-weight: bold;
@@ -35,7 +36,7 @@
 }
 
 .product-details1 {
-  width: 300px;
+  width: 400px;
   padding-top: 1.5rem;
   color: #718CFE;
   font-weight: bold;

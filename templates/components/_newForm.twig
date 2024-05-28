@@ -1,10 +1,10 @@
 
 
 
-<section>
-<p>{{ block.newFormTitle }}</p>
-        {{ craft.formie.renderForm(block.nieuweForm.one().handle) }}
-
-
+<section id="formContent">
+    <div>
+<h1 class="formTitel">{{ block.newFormTitle }}</h1>
+    {{ craft.formie.renderForm(block.nieuweForm.one().handle) }}
+    </div>
 
 </section>

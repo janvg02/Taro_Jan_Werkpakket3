@@ -1,0 +1,41 @@
+/* Ensure box-sizing includes padding and border in the width */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.text, .image {
+  width: 50%;
+  padding: 0; /* Ensure no padding */
+  margin: 0; /* Ensure no margin */
+}
+
+.fui-page-container {
+  width: 70%;
+  margin: 0 auto; /* Center the container */
+}
+
+.fui-btn:not(:disabled):not(.disabled) {
+  display: block; /* Ensure block display */
+  margin: 1rem auto; /* Center the button */
+}
+
+#formContent h1 {
+  width: 100%;
+  padding-left: 15%;
+  margin-top: 3rem;
+}
+
+#rowContent {
+  display: flex;
+  flex-direction: row;
+  width: 100%; /* Ensure the flex container does not exceed 100% */
+  padding: 0; /* Ensure no padding */
+  margin: 0; /* Ensure no margin */
+}
+
+#contentpagina
+{
+  max-width: 99%;
+}

@@ -1,18 +1,17 @@
-
-
-
 <section>
-    <div class="row">
+    <div class="row"><div id="rowContent">
         {% if block.positionImage.one().title == "Left" %}
-            <div class="image">
+
+
+            <div class="image" id="pageImage">
                 <img src="{{ block.newImage.one().url }}" alt="{{ block.newImage.one().title }}"></img>
             </div>
-            <div class="text">
+            <div class="text" id="pageHeader">
                 <p>{{ block.newTitle }}<p>
                 <p>{{ block.newDescription }}</p>
             </div>
         {% else %}
-            <div class="text">
+            <div class="text" id="pageHeader">
                 <p>{{ block.newTitle }}</p>
                 <p>{{ block.newDescription }}</p>
             </div>
@@ -20,5 +19,5 @@
                 <img src="{{ block.newImage.one().url }}" alt="{{ block.newImage.one().title }}"></img>
             </div>
         {% endif %}
-    </div>
+    </div></div>
 </section>

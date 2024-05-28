@@ -8,8 +8,11 @@
             <li class="product-info">
                 <a href="{{ url('products/' ~ product.slug) }}">
                 <img src="{{ image.url }}" alt="{{ product.title }}" class="product-image">
+
                   <div class="product-details1">
+
                       <h1>{{ product.title }}</h1>
+                      <p class="productdescription">{{ product.productDescription }}</p>
                       <p class="stock">{{ product.productStock }}</p>
                       <p class="price">€ {{ product.productPrice }}</p>
                       <button class="add-to-cart-button">View product</button>

@@ -1,8 +1,8 @@
+
 {% extends "base/_layout.twig" %}
     {% set blocks = entry.newPage.all() %}
-{# {% dd(blocks) %} #}
 
-{% block content %}
+{% block content %}<div id="contentpagina">
 {% for block in blocks %}
 
 
@@ -12,5 +12,5 @@
 
 
 {% endfor %}
-
+</div>
 {% endblock %}
